@@ -1,0 +1,515 @@
+[
+  {
+    "id": "adv_dev_tab_01",
+    "split": "dev",
+    "query": "Theo Báo cáo kết quả kinh doanh hợp nhất năm 2023, doanh thu thuần và lợi nhuận sau thuế của Vinamilk lần lượt đạt bao nhiêu tỷ đồng?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p154_tab01"
+    ],
+    "expected_answer": "Doanh thu thuần đạt 60.479 tỷ đồng và lợi nhuận sau thuế đạt 9.019 tỷ đồng.",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_dev_tab_02",
+    "split": "dev",
+    "query": "Trong năm 2023, tổng phát thải khí nhà kính Phạm vi 1 (Scope 1) trực tiếp của Vinamilk giảm bao nhiêu phần trăm so với năm 2022?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p78_tab03"
+    ],
+    "expected_answer": "Phát thải Phạm vi 1 giảm 7.5% so với năm 2022 (từ 178.630 tCO2e xuống 165.210 tCO2e).",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_dev_tab_03",
+    "split": "dev",
+    "query": "Tại ngày 31/12/2023, khoản mục tiền gửi và đầu tư tài chính ngắn hạn của Vinamilk đạt giá trị bao nhiêu tỷ đồng và chiếm bao nhiêu phần trăm tổng tài sản?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p158_tab02"
+    ],
+    "expected_answer": "Đạt 20.395 tỷ đồng, chiếm 38.3% tổng tài sản.",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_dev_tab_04",
+    "split": "dev",
+    "query": "Tỷ lệ nước được tái tuần hoàn và tái sử dụng trên tổng lượng nước sử dụng của Vinamilk trong năm 2023 đạt mức bao nhiêu phần trăm?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p84_tab04"
+    ],
+    "expected_answer": "Đạt 29.0% (tương ứng 1.280.000 m3 nước tái sử dụng).",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_dev_img_01",
+    "split": "dev",
+    "query": "Theo sơ đồ chuỗi giá trị từ đồng cỏ đến bàn ăn của Vinamilk, khối nông nghiệp (Farming) quản lý bao nhiêu trang trại và bao nhiêu con bò sữa?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p42_img01"
+    ],
+    "expected_answer": "Khối nông nghiệp quản lý 14 trang trại công nghệ cao và hơn 130.000 con bò sữa.",
+    "group": "Ảnh, sơ đồ"
+  },
+  {
+    "id": "adv_dev_img_02",
+    "split": "dev",
+    "query": "Trong mô hình kinh tế tuần hoàn Biogas tại trang trại Green Farm, pha rắn của chất thải sau khi qua máy ép trục vít được xử lý như thế nào?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p88_img02"
+    ],
+    "expected_answer": "Pha rắn được ủ vi sinh hiếu khí thành phân bón hữu cơ compost đạt chuẩn vi sinh để bón cho đồng cỏ Mombasa và ngô sinh khối.",
+    "group": "Ảnh, sơ đồ"
+  },
+  {
+    "id": "adv_dev_img_03",
+    "split": "dev",
+    "query": "Theo sơ đồ cơ cấu quản trị, Hội đồng quản trị Vinamilk có mấy tiểu ban trực thuộc và gồm những tiểu ban nào?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p130_img03"
+    ],
+    "expected_answer": "Có 4 tiểu ban trực thuộc: Tiểu ban Kiểm toán, Tiểu ban Chiến lược, Tiểu ban Lương thưởng & Nhân sự, và Tiểu ban Đề cử.",
+    "group": "Ảnh, sơ đồ"
+  },
+  {
+    "id": "adv_dev_chr_01",
+    "split": "dev",
+    "query": "Dựa trên biểu đồ cột tăng trưởng doanh thu giai đoạn 2019-2023, doanh thu thuần năm nào đạt giá trị cao nhất và đạt bao nhiêu tỷ đồng?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p48_chr01"
+    ],
+    "expected_answer": "Năm 2021 đạt giá trị cao nhất với 60.919 tỷ đồng.",
+    "group": "Biểu đồ"
+  },
+  {
+    "id": "adv_dev_chr_02",
+    "split": "dev",
+    "query": "Theo biểu đồ tròn cơ cấu doanh thu năm 2023, thị trường nội địa chiếm tỷ trọng bao nhiêu phần trăm trong tổng doanh thu hợp nhất?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p52_chr02"
+    ],
+    "expected_answer": "Thị trường nội địa chiếm 83.7% tổng doanh thu hợp nhất (tương ứng 50.617 tỷ đồng).",
+    "group": "Biểu đồ"
+  },
+  {
+    "id": "adv_dev_chr_03",
+    "split": "dev",
+    "query": "Theo biểu đồ đường về năng lượng xanh, tỷ lệ tiêu thụ năng lượng tái tạo của Vinamilk năm 2023 đạt mức bao nhiêu phần trăm?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p92_chr03"
+    ],
+    "expected_answer": "Đạt 20.5% tổng năng lượng tiêu thụ.",
+    "group": "Biểu đồ"
+  },
+  {
+    "id": "adv_dev_mul_01",
+    "split": "dev",
+    "query": "Dựa vào Báo cáo kinh doanh (trang 154) và Thuyết minh doanh thu theo địa bàn (trang 165), doanh thu thuần năm 2023 tăng bao nhiêu tỷ đồng so với năm 2022, và phần tăng tuyệt đối đó đến chủ yếu từ thị trường nội địa hay nước ngoài?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p154_tab01",
+      "vnm_p165_tab06"
+    ],
+    "expected_answer": "Tổng doanh thu thuần tăng 404 tỷ đồng (từ 60.075 tỷ lên 60.479 tỷ đồng); phần tăng này đến hoàn toàn từ thị trường nước ngoài (tăng 491 tỷ đồng, từ 9.371 tỷ lên 9.862 tỷ đồng) trong khi thị trường nội địa giảm nhẹ 87 tỷ đồng.",
+    "group": "Multi-hop"
+  },
+  {
+    "id": "adv_dev_mul_02",
+    "split": "dev",
+    "query": "Tính tỷ suất lợi nhuận ròng trên doanh thu thuần (Biên lợi nhuận ròng) năm 2023 của Vinamilk dựa trên số liệu doanh thu và lợi nhuận sau thuế tại trang 154, và so sánh với năm 2022?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p154_tab01"
+    ],
+    "expected_answer": "Biên lợi nhuận ròng năm 2023 đạt 14.91% (9.019 / 60.479), tăng so với mức 14.28% của năm 2022 (8.578 / 60.075).",
+    "group": "Multi-hop"
+  },
+  {
+    "id": "adv_dev_mul_03",
+    "split": "dev",
+    "query": "Kết hợp số liệu về phát thải Scope 1+2 (trang 78) và tỷ lệ năng lượng tái tạo (trang 92), hãy cho biết tổng phát thải Scope 1 và 2 năm 2023 giảm bao nhiêu tCO2e trong bối cảnh tỷ lệ năng lượng tái tạo tăng lên bao nhiêu phần trăm?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p78_tab03",
+      "vnm_p92_chr03"
+    ],
+    "expected_answer": "Tổng phát thải Scope 1 và 2 năm 2023 giảm 30.770 tCO2e (từ 414.430 xuống 383.660 tCO2e, giảm 7.4%) cùng với việc tỷ lệ năng lượng tái tạo tăng từ 15.6% lên 20.5%.",
+    "group": "Multi-hop"
+  },
+  {
+    "id": "adv_dev_txt_01",
+    "split": "dev",
+    "query": "Hai đơn vị đầu tiên của Vinamilk được cấp chứng nhận trung hòa carbon (Net Zero) theo chuẩn PAS 2060 trong năm 2023 là những đơn vị nào?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p24_c0"
+    ],
+    "expected_answer": "Nhà máy Sữa Nghệ An và Trang trại Bò sữa Nghệ An.",
+    "group": "Text"
+  },
+  {
+    "id": "adv_dev_txt_02",
+    "split": "dev",
+    "query": "Tính đến ngày 31/12/2023, tổng số lượng cán bộ công nhân viên của Vinamilk là bao nhiêu người và tổng số giờ đào tạo chuyên môn đạt bao nhiêu giờ?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p68_c0"
+    ],
+    "expected_answer": "Tổng số lượng nhân viên là 9.542 người và đã tổ chức hơn 120.000 giờ đào tạo.",
+    "group": "Text"
+  },
+  {
+    "id": "adv_dev_abs_01",
+    "split": "dev",
+    "query": "Kế hoạch sáp nhập công ty sữa đối thủ tại thị trường Úc trong năm 2024 của Vinamilk có giá trị thương vụ ước tính bao nhiêu triệu USD?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  },
+  {
+    "id": "adv_dev_abs_02",
+    "split": "dev",
+    "query": "Tỷ lệ tăng trưởng doanh số bán hàng của dòng sản phẩm sữa chua hữu cơ tại thị trường Vương quốc Anh năm 2023 đạt bao nhiêu phần trăm?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  },
+  {
+    "id": "adv_dev_abs_03",
+    "split": "dev",
+    "query": "Công thức độc quyền chủng men vi sinh Probiotics của dòng sữa chua nha đam Vinamilk bao gồm những chủng vi khuẩn cụ thể nào?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  },
+  {
+    "id": "adv_test_tab_01",
+    "split": "test",
+    "query": "Theo bảng Kết quả kinh doanh hợp nhất, chi phí tài chính của Vinamilk trong năm 2023 là bao nhiêu tỷ đồng và giảm bao nhiêu phần trăm so với năm 2022?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p154_tab01"
+    ],
+    "expected_answer": "Chi phí tài chính năm 2023 là 452 tỷ đồng, giảm 26.7% so với mức 617 tỷ đồng năm 2022.",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_test_tab_02",
+    "split": "test",
+    "query": "Theo bảng cân đối kế toán, tổng nợ phải trả và vốn chủ sở hữu của Vinamilk tại ngày 31/12/2023 lần lượt là bao nhiêu tỷ đồng?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p158_tab02"
+    ],
+    "expected_answer": "Nợ phải trả là 17.649 tỷ đồng và Vốn chủ sở hữu là 35.575 tỷ đồng.",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_test_tab_03",
+    "split": "test",
+    "query": "Chỉ số cường độ phát thải khí nhà kính trên một kg sữa thành phẩm của Vinamilk năm 2023 đạt bao nhiêu kg CO2e và giảm bao nhiêu so với năm 2022?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p78_tab03"
+    ],
+    "expected_answer": "Năm 2023 đạt 0.36 kg CO2e / kg sữa, giảm 7.7% so với mức 0.39 kg CO2e / kg sữa của năm 2022.",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_test_tab_04",
+    "split": "test",
+    "query": "Trong cơ cấu nhân sự năm 2023, số lượng nhân sự nữ giữ vị trí cấp quản lý là bao nhiêu người và chiếm tỷ lệ bao nhiêu phần trăm trong tổng số quản lý?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p112_tab05"
+    ],
+    "expected_answer": "Có 270 nhân sự nữ cấp quản lý, chiếm tỷ lệ 41.5% trong tổng số 650 nhân sự quản lý.",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_test_tab_05",
+    "split": "test",
+    "query": "Doanh thu thuần từ các chi nhánh nước ngoài (như Driftwood, AngkorMilk) trong năm 2023 đạt bao nhiêu tỷ đồng và tăng trưởng bao nhiêu phần trăm?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p165_tab06"
+    ],
+    "expected_answer": "Đạt 4.817 tỷ đồng, tăng trưởng 6.0% so với năm 2022 (4.543 tỷ đồng).",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_test_tab_06",
+    "split": "test",
+    "query": "Theo bảng cơ cấu lao động, nhóm tuổi nào chiếm số lượng đông đảo nhất tại Vinamilk năm 2023 và có tổng số bao nhiêu nhân viên?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p112_tab05"
+    ],
+    "expected_answer": "Nhóm tuổi từ 30 đến 50 tuổi chiếm đông nhất với 5.502 nhân viên (3.512 nam và 1.990 nữ).",
+    "group": "Bảng"
+  },
+  {
+    "id": "adv_test_img_01",
+    "split": "test",
+    "query": "Trong sơ đồ kinh tế tuần hoàn tại trang trại Green Farm, khí Methane (CH4) sinh ra từ hầm ủ Biogas kỵ khí được sử dụng vào mục đích gì?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p88_img02"
+    ],
+    "expected_answer": "Dùng để chạy máy phát điện phục vụ trang trại và đun nước nóng phục vụ thanh trùng.",
+    "group": "Ảnh, sơ đồ"
+  },
+  {
+    "id": "adv_test_img_02",
+    "split": "test",
+    "query": "Theo sơ đồ chuỗi giá trị từ đồng cỏ đến bàn ăn, bao bì vỏ hộp sữa sau khi người tiêu dùng sử dụng được xử lý như thế nào?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p42_img01"
+    ],
+    "expected_answer": "Được thu gom và tái chế thành vật liệu lợp mái sinh thái.",
+    "group": "Ảnh, sơ đồ"
+  },
+  {
+    "id": "adv_test_img_03",
+    "split": "test",
+    "query": "Theo sơ đồ tổ chức bộ máy, Ban Điều hành của Vinamilk đứng đầu là ai và trực tiếp điều hành bao nhiêu Giám đốc Điều hành các khối?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p130_img03"
+    ],
+    "expected_answer": "Đứng đầu là Tổng Giám đốc (Bà Mai Kiều Liên), trực tiếp điều hành 7 Giám đốc Điều hành phụ trách các khối chức năng.",
+    "group": "Ảnh, sơ đồ"
+  },
+  {
+    "id": "adv_test_img_04",
+    "split": "test",
+    "query": "Theo sơ đồ công nghệ xử lý nước thải tại Nhà máy Mega Bình Dương, công đoạn khử trùng sử dụng công nghệ gì thay thế cho hóa chất Clo?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p96_img04"
+    ],
+    "expected_answer": "Sử dụng công nghệ khử trùng bằng tia cực tím UV (không dùng hóa chất Clo).",
+    "group": "Ảnh, sơ đồ"
+  },
+  {
+    "id": "adv_test_img_05",
+    "split": "test",
+    "query": "Trên ma trận rủi ro chuẩn ISO 31000 của Vinamilk, hai rủi ro nào được định vị ở Vùng Đỏ (mức độ nghiêm trọng cần kiểm soát ngay)?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p140_img05"
+    ],
+    "expected_answer": "Biến động giá nguyên liệu sữa bột toàn cầu và rủi ro tỷ giá USD/VND.",
+    "group": "Ảnh, sơ đồ"
+  },
+  {
+    "id": "adv_test_chr_01",
+    "split": "test",
+    "query": "Theo biểu đồ thị phần ngành hàng của NielsenIQ RMS 2023, phân khúc sản phẩm nào Vinamilk chiếm thị phần áp đảo cao nhất với tỷ lệ bao nhiêu?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p56_chr04"
+    ],
+    "expected_answer": "Sữa đặc có đường (Ông Thọ, Ngôi Sao Phương Nam) chiếm thị phần cao nhất với 79.5% thị phần.",
+    "group": "Biểu đồ"
+  },
+  {
+    "id": "adv_test_chr_02",
+    "split": "test",
+    "query": "Dựa trên biểu đồ cột kép về Chương trình Sữa học đường, ngân sách đóng góp và số lượng học sinh thụ hưởng năm 2023 lần lượt là bao nhiêu?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p104_chr05"
+    ],
+    "expected_answer": "Ngân sách đóng góp là 215 tỷ đồng và số học sinh thụ hưởng là 3.8 triệu học sinh.",
+    "group": "Biểu đồ"
+  },
+  {
+    "id": "adv_test_chr_03",
+    "split": "test",
+    "query": "Theo biểu đồ đường năng lượng tái tạo, mức tăng tỷ lệ năng lượng tái tạo từ năm 2020 (8.4%) đến năm 2023 (20.5%) là bao nhiêu điểm phần trăm?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p92_chr03"
+    ],
+    "expected_answer": "Tăng 12.1 điểm phần trăm (từ 8.4% lên 20.5%).",
+    "group": "Biểu đồ"
+  },
+  {
+    "id": "adv_test_chr_04",
+    "split": "test",
+    "query": "Theo biểu đồ tròn cơ cấu doanh thu theo thị trường năm 2023, doanh thu xuất khẩu trực tiếp đóng góp bao nhiêu phần trăm và tương ứng bao nhiêu tỷ đồng?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p52_chr02"
+    ],
+    "expected_answer": "Đóng góp 8.3% tổng doanh thu hợp nhất, tương ứng 5.045 tỷ đồng.",
+    "group": "Biểu đồ"
+  },
+  {
+    "id": "adv_test_chr_05",
+    "split": "test",
+    "query": "Dựa trên biểu đồ thị phần ngành hàng, tại phân khúc sữa tươi/sữa nước và sữa chua, Vinamilk lần lượt nắm giữ bao nhiêu phần trăm thị phần tại Việt Nam?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p56_chr04"
+    ],
+    "expected_answer": "Sữa tươi/sữa nước nắm 55.4% thị phần và sữa chua (ăn & uống) nắm 52.8% thị phần.",
+    "group": "Biểu đồ"
+  },
+  {
+    "id": "adv_test_mul_01",
+    "split": "test",
+    "query": "Tính tỷ số Nợ trên Vốn chủ sở hữu (D/E) của Vinamilk tại ngày 31/12/2023 dựa trên Bảng cân đối kế toán (trang 158) và cho biết chỉ số này phản ánh cấu trúc tài chính an toàn hay rủi ro?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p158_tab02"
+    ],
+    "expected_answer": "Tỷ số D/E năm 2023 là 49.6% (17.649 tỷ / 35.575 tỷ đồng). Chỉ số này dưới 50%, phản ánh cấu trúc vốn rất lành mạnh và an toàn, tỷ lệ tự tài trợ cao.",
+    "group": "Multi-hop"
+  },
+  {
+    "id": "adv_test_mul_02",
+    "split": "test",
+    "query": "So sánh tốc độ tăng trưởng doanh thu hoạt động tài chính (+26.5%) và chi phí tài chính (-26.7%) tại trang 154, sự chênh lệch này đã tác động tích cực như thế nào đến lợi nhuận ròng của công ty?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p154_tab01"
+    ],
+    "expected_answer": "Doanh thu tài chính tăng mạnh lên 2.115 tỷ đồng (+26.5%, chủ yếu nhờ lãi tiền gửi) trong khi chi phí tài chính giảm xuống 452 tỷ (-26.7%), tạo ra lợi nhuận tài chính thuần đạt 1.663 tỷ đồng (so với 1.055 tỷ năm 2022), đóng góp đáng kể vào mức tăng 5.1% lợi nhuận sau thuế.",
+    "group": "Multi-hop"
+  },
+  {
+    "id": "adv_test_mul_03",
+    "split": "test",
+    "query": "Kết hợp Thông điệp Tổng Giám đốc (trang 12) và Bảng kết quả kinh doanh (trang 154), thông điệp mới 'Để tâm đổi thay lớn' năm 2023 được phản ánh bằng con số lợi nhuận sau thuế hợp nhất đạt bao nhiêu và tăng trưởng bao nhiêu phần trăm?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p12_c0",
+      "vnm_p154_tab01"
+    ],
+    "expected_answer": "Lợi nhuận sau thuế hợp nhất đạt 9.019 tỷ đồng, tăng trưởng 5.1% - 5.2% so với năm 2022.",
+    "group": "Multi-hop"
+  },
+  {
+    "id": "adv_test_mul_04",
+    "split": "test",
+    "query": "Tính tỷ lệ chi phí bán hàng trên doanh thu thuần của Vinamilk năm 2023 (trang 154) và so sánh tỷ lệ này với năm 2022?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p154_tab01"
+    ],
+    "expected_answer": "Năm 2023 tỷ lệ chi phí bán hàng trên doanh thu thuần là 21.29% (12.876 / 60.479 tỷ), tăng nhẹ so với mức 20.89% của năm 2022 (12.548 / 60.075 tỷ).",
+    "group": "Multi-hop"
+  },
+  {
+    "id": "adv_test_txt_01",
+    "split": "test",
+    "query": "Ba mốc mục tiêu giảm phát thải khí nhà kính cụ thể trong lộ trình Net Zero 2050 theo chuẩn PAS 2060 của Vinamilk là những năm nào và mục tiêu giảm bao nhiêu phần trăm?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p24_c0"
+    ],
+    "expected_answer": "Mục tiêu: Đến năm 2027 giảm 15%; đến năm 2035 giảm 55%; và đến năm 2050 đạt Net Zero (giảm 100% phát thải ròng).",
+    "group": "Text"
+  },
+  {
+    "id": "adv_test_txt_02",
+    "split": "test",
+    "query": "Hệ thống làm mát chuồng trại tự động tại các trang trại Green Farm của Vinamilk duy trì nhiệt độ lý tưởng trong khoảng bao nhiêu độ C?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p35_c1"
+    ],
+    "expected_answer": "Duy trì ở mức nhiệt độ lý tưởng 24 - 26 độ C.",
+    "group": "Text"
+  },
+  {
+    "id": "adv_test_txt_03",
+    "split": "test",
+    "query": "Chủ tịch Hội đồng Quản trị của Vinamilk nhiệm kỳ 2022-2026 là ai và HĐQT có bao nhiêu thành viên độc lập?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p128_c0"
+    ],
+    "expected_answer": "Chủ tịch HĐQT là ông Nguyễn Hạnh Phúc và HĐQT có 3 thành viên độc lập (chiếm 30%).",
+    "group": "Text"
+  },
+  {
+    "id": "adv_test_txt_04",
+    "split": "test",
+    "query": "Tỷ lệ cán bộ công nhân viên của Vinamilk tham gia tổ chức công đoàn tính đến cuối năm 2023 đạt bao nhiêu phần trăm?",
+    "answerable": true,
+    "ground_truth_chunks": [
+      "vnm_p68_c0"
+    ],
+    "expected_answer": "Đạt 99.8%.",
+    "group": "Text"
+  },
+  {
+    "id": "adv_test_abs_01",
+    "split": "test",
+    "query": "Kế hoạch xây dựng nhà máy sản xuất sữa chua sấy thăng hoa tại bang California (Mỹ) của Vinamilk dự kiến khởi công vào quý nào năm 2025?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  },
+  {
+    "id": "adv_test_abs_02",
+    "split": "test",
+    "query": "Mức lương và tiền thưởng cụ thể trong năm 2023 của từng Giám đốc Điều hành các khối thành viên trong Ban Điều hành là bao nhiêu tiền?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  },
+  {
+    "id": "adv_test_abs_03",
+    "split": "test",
+    "query": "Tỷ lệ thị phần của sản phẩm sữa bột người lớn Vinamilk Sure Prevent tại thị trường Philippines trong năm 2023 là bao nhiêu phần trăm?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  },
+  {
+    "id": "adv_test_abs_04",
+    "split": "test",
+    "query": "Chỉ số hàm lượng protein và canxi chính xác trong mỗi 100ml sữa tươi tiệt trùng bổ sung tổ yến của Vinamilk là bao nhiêu gam và miligam?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  },
+  {
+    "id": "adv_test_abs_05",
+    "split": "test",
+    "query": "Giá trị hợp đồng mua sắm 50 xe tải điện chuyên dụng vận chuyển sữa từ nhà sản xuất VinFast trong năm 2023 có tổng giá trị bao nhiêu tỷ đồng?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  },
+  {
+    "id": "adv_test_abs_06",
+    "split": "test",
+    "query": "Dự báo chi tiết tốc độ tăng trưởng doanh thu thuần của Vinamilk cho giai đoạn 2026 - 2030 theo từng kịch bản kinh tế vĩ mô là bao nhiêu phần trăm mỗi năm?",
+    "answerable": false,
+    "ground_truth_chunks": [],
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "group": "Thiếu bằng chứng"
+  }
+]

@@ -1,0 +1,1261 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Một tín chỉ lý thuyết được quy định tương đương với bao nhiêu tiết học trên lớp?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 1,
+        "evidence": "Một tín chỉ (TC) được quy định tương đương với 15 tiết học lý thuyết trên lớp"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c0",
+        "page": 27,
+        "score": 0.0325,
+        "hit": false,
+        "text_snippet": "ĐIỀU 54. ĐỊNH MỨC THU VÀ CÁCH TÍNH HỌC PHÍ TÍN CHỈ\n1. Học phí được xác định theo số lượng tín chỉ của các học phần mà sinh viên đăng ký trong học kỳ n"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p1_c1",
+        "page": 1,
+        "score": 0.032,
+        "hit": true,
+        "text_snippet": "ĐIỀU 2. CHƯƠNG TRÌNH ĐÀO TẠO VÀ ĐƠN VỊ TÍN CHỈ\n1. Chương trình đào tạo (CTĐT) được xây dựng theo định hướng chuẩn đầu ra, cấu trúc gồm khối kiến thức "
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p13_c0",
+        "page": 13,
+        "score": 0.0315,
+        "hit": false,
+        "text_snippet": "ĐIỀU 25. THANG ĐIỂM ĐÁNH GIÁ VÀ TRỌNG SỐ\n1. Điểm học phần được cấu thành từ 2 bộ phận chính:\na) Điểm quá trình: Chiếm trọng số từ 30% đến 50% điểm học"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c1",
+        "page": 2,
+        "score": 0.0313,
+        "hit": false,
+        "text_snippet": "ĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phầ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p1_c0",
+        "page": 1,
+        "score": 0.0294,
+        "hit": false,
+        "text_snippet": "ĐIỀU 1. PHẠM VI ĐIỀU CHỈNH VÀ ĐỐI TƯỢNG ÁP DỤNG\n1. Quy chế này quy định về tổ chức đào tạo đại học chính quy theo hệ thống tín chỉ, bao gồm: chương tr"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p27_c0 | so_tay_sinh_vien_2024 | trang 27]\nĐIỀU 54. ĐỊNH MỨC THU VÀ CÁCH TÍNH HỌC PHÍ TÍN CHỈ\n1. Học phí được xác định theo số lượng tín chỉ của các học phần mà sinh viên đăng ký trong học kỳ nhân với đơn giá của một tín chỉ học phần đó. Đơn giá tín chỉ được quy định công khai trước đầu khóa học và điều chỉnh không quá 10%/năm theo quy định của Nhà nước.\n2. Đối với các học phần có giờ thực hành, thí nghiệm, thực tập xưởng, đơn giá tín chỉ được nhân hệ số 1.2 đến 1.5 so với học phần lý thuyết nhằm bù đắp chi phí vật tư tiêu hao.\n3. Học phần học lại, học cải thiện tính theo đơn giá tín chỉ thực tế tại thời điểm đăng ký học phần đó.\n\n[B_so-tay-sinh-vien-2024_p13_c0 | so_tay_sinh_vien_2024 | trang 13]\nĐIỀU 25. THANG ĐIỂM ĐÁNH GIÁ VÀ TRỌNG SỐ\n1. Điểm học phần được cấu thành từ 2 bộ phận chính:\na) Điểm quá trình: Chiếm trọng số từ 30% đến 50% điểm học phần, bao gồm điểm chuyên cần (10%), điểm bài tập/thảo luận nhóm (10-20%) và điểm kiểm tra giữa kỳ (15-25%);\nb) Điểm thi kết thúc học phần: Chiếm trọng số từ 50% đến 70% tổng điểm học phần, hình thức thi có thể là tự luận, trắc nghiệm, vấn đáp hoặc bảo vệ đồ án môn học.\n2. Trọng số chi tiết của từng bộ phận được quy định trong Đề cương chi tiết học phần và phải được giảng viên phổ biến công khai cho sinh viên ngay trong tuần đầu tiên của học kỳ.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p27_c0",
+      "B_so-tay-sinh-vien-2024_p13_c0"
+    ],
+    "context_chars": 1332,
+    "elapsed_ms": 23.59,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Sinh viên có học lực bình thường được đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 2,
+        "evidence": "Sinh viên có học lực bình thường được đăng ký tối thiểu 14 tín chỉ và tối đa 24 tín chỉ trong mỗi học kỳ chính."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c0",
+        "page": 27,
+        "score": 0.0325,
+        "hit": false,
+        "text_snippet": "ĐIỀU 54. ĐỊNH MỨC THU VÀ CÁCH TÍNH HỌC PHÍ TÍN CHỈ\n1. Học phí được xác định theo số lượng tín chỉ của các học phần mà sinh viên đăng ký trong học kỳ n"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c1",
+        "page": 2,
+        "score": 0.0325,
+        "hit": true,
+        "text_snippet": "ĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phầ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p1_c2",
+        "page": 1,
+        "score": 0.0301,
+        "hit": false,
+        "text_snippet": "Mỗi học phần có khối lượng từ 2 đến 4 tín chỉ, được ký hiệu bằng mã học phần duy nhất gồm 6 đến 8 ký tự chữ và số. Sinh viên cần hoàn thành đầy đủ học"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p19_c1",
+        "page": 19,
+        "score": 0.0159,
+        "hit": false,
+        "text_snippet": "Khen thưởng tập thể lớp sinh viên:\na) Danh hiệu \"Tập thể Lớp Sinh viên Xuất sắc\": Lớp có từ 15% sinh viên đạt danh hiệu Sinh viên Xuất sắc, không có s"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p23_c0",
+        "page": 23,
+        "score": 0.0159,
+        "hit": false,
+        "text_snippet": "ĐIỀU 45. NGUYÊN TẮC VÀ ĐỐI TƯỢNG XÉT HỌC BỔNG KKHT\n1. Quỹ học bổng khuyến khích học tập được trích tối thiểu 8% từ nguồn thu học phí của trường để cấp"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p27_c0 | so_tay_sinh_vien_2024 | trang 27]\nĐIỀU 54. ĐỊNH MỨC THU VÀ CÁCH TÍNH HỌC PHÍ TÍN CHỈ\n1. Học phí được xác định theo số lượng tín chỉ của các học phần mà sinh viên đăng ký trong học kỳ nhân với đơn giá của một tín chỉ học phần đó. Đơn giá tín chỉ được quy định công khai trước đầu khóa học và điều chỉnh không quá 10%/năm theo quy định của Nhà nước.\n2. Đối với các học phần có giờ thực hành, thí nghiệm, thực tập xưởng, đơn giá tín chỉ được nhân hệ số 1.2 đến 1.5 so với học phần lý thuyết nhằm bù đắp chi phí vật tư tiêu hao.\n3. Học phần học lại, học cải thiện tính theo đơn giá tín chỉ thực tế tại thời điểm đăng ký học phần đó.\n\n[B_so-tay-sinh-vien-2024_p2_c1 | so_tay_sinh_vien_2024 | trang 2]\nĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phần mở và hướng dẫn đăng ký trên cổng thông tin sinh viên portal. 2. Khối lượng học tập tối thiểu và tối đa sinh viên được phép đăng ký trong một học kỳ chính được quy định như sau:\na) Sinh viên có học lực bình thường được đăng ký tối thiểu 14 tín chỉ và tối đa 24 tín chỉ trong mỗi học kỳ chính. b) Sinh viên xếp loại học lực yếu hoặc đang trong tình trạng cảnh báo học tập chỉ được phép đăng ký tối thiểu 10 tín chỉ và tối đa không quá 14 tín chỉ trong một học kỳ chính nhằm đảm bảo khả năng tiếp thu và cải thiện kết quả. c) Trong học kỳ hè, sinh viên chỉ được phép đăng ký tối đa 8 tín chỉ. 3.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p27_c0",
+      "B_so-tay-sinh-vien-2024_p2_c1"
+    ],
+    "context_chars": 1475,
+    "elapsed_ms": 25.25,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Sinh viên xếp loại học lực yếu hoặc đang bị cảnh báo học tập chỉ được đăng ký tối đa bao nhiêu tín chỉ trong kỳ chính?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 2,
+        "evidence": "Sinh viên xếp loại học lực yếu hoặc đang trong tình trạng cảnh báo học tập chỉ được phép đăng ký tối thiểu 10 tín chỉ và tối đa không quá 14 tín chỉ trong một học kỳ chính"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c0",
+        "page": 27,
+        "score": 0.0323,
+        "hit": false,
+        "text_snippet": "ĐIỀU 54. ĐỊNH MỨC THU VÀ CÁCH TÍNH HỌC PHÍ TÍN CHỈ\n1. Học phí được xác định theo số lượng tín chỉ của các học phần mà sinh viên đăng ký trong học kỳ n"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c1",
+        "page": 2,
+        "score": 0.0323,
+        "hit": true,
+        "text_snippet": "ĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phầ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p4_c2",
+        "page": 4,
+        "score": 0.0318,
+        "hit": false,
+        "text_snippet": "ĐIỀU 8. CÁC TRƯỜNG HỢP BUỘC THÔI HỌC VÌ LÝ DO HỌC TẬP\nSinh viên bị xem xét buộc thôi học nếu thuộc một trong các trường hợp sau:\n1. Bị cảnh báo kết qu"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p4_c0",
+        "page": 4,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "ĐIỀU 7. TIÊU CHÍ CẢNH BÁO KẾT QUẢ HỌC TẬP\n1. Cảnh báo học tập được thực hiện theo từng học kỳ chính nhằm giúp sinh viên nhận thức rõ tình trạng học tậ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p20_c1",
+        "page": 20,
+        "score": 0.0292,
+        "hit": false,
+        "text_snippet": "Đình chỉ học tập có thời hạn:\na) Đình chỉ học tập 01 học kỳ chính: Áp dụng đối với sinh viên đang trong thời gian bị cảnh cáo mà tái phạm; hoặc vi phạ"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p27_c0 | so_tay_sinh_vien_2024 | trang 27]\nĐIỀU 54. ĐỊNH MỨC THU VÀ CÁCH TÍNH HỌC PHÍ TÍN CHỈ\n1. Học phí được xác định theo số lượng tín chỉ của các học phần mà sinh viên đăng ký trong học kỳ nhân với đơn giá của một tín chỉ học phần đó. Đơn giá tín chỉ được quy định công khai trước đầu khóa học và điều chỉnh không quá 10%/năm theo quy định của Nhà nước.\n2. Đối với các học phần có giờ thực hành, thí nghiệm, thực tập xưởng, đơn giá tín chỉ được nhân hệ số 1.2 đến 1.5 so với học phần lý thuyết nhằm bù đắp chi phí vật tư tiêu hao.\n3. Học phần học lại, học cải thiện tính theo đơn giá tín chỉ thực tế tại thời điểm đăng ký học phần đó.\n\n[B_so-tay-sinh-vien-2024_p2_c1 | so_tay_sinh_vien_2024 | trang 2]\nĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phần mở và hướng dẫn đăng ký trên cổng thông tin sinh viên portal. 2. Khối lượng học tập tối thiểu và tối đa sinh viên được phép đăng ký trong một học kỳ chính được quy định như sau:\na) Sinh viên có học lực bình thường được đăng ký tối thiểu 14 tín chỉ và tối đa 24 tín chỉ trong mỗi học kỳ chính. b) Sinh viên xếp loại học lực yếu hoặc đang trong tình trạng cảnh báo học tập chỉ được phép đăng ký tối thiểu 10 tín chỉ và tối đa không quá 14 tín chỉ trong một học kỳ chính nhằm đảm bảo khả năng tiếp thu và cải thiện kết quả. c) Trong học kỳ hè, sinh viên chỉ được phép đăng ký tối đa 8 tín chỉ. 3.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p27_c0",
+      "B_so-tay-sinh-vien-2024_p2_c1"
+    ],
+    "context_chars": 1475,
+    "elapsed_ms": 29.83,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Thời hạn nộp đơn rút bớt học phần trong học kỳ chính là bao lâu kể từ ngày bắt đầu học tập?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 3,
+        "evidence": "Thời hạn nộp đơn rút bớt học phần: Trong vòng 2 tuần đầu tiên của học kỳ chính và trong vòng 1 tuần đầu tiên của học kỳ hè"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p5_c2",
+        "page": 5,
+        "score": 0.0318,
+        "hit": false,
+        "text_snippet": "ĐIỀU 10. THỦ TỤC VÀ HẠN NỘP ĐƠN NGHỈ HỌC TẠM THỜI\n1. Đơn xin nghỉ học tạm thời phải được nộp trước khi học kỳ bắt đầu ít nhất 2 tuần, hoặc chậm nhất l"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p3_c0",
+        "page": 3,
+        "score": 0.0315,
+        "hit": true,
+        "text_snippet": "ĐIỀU 5. QUY TRÌNH RÚT BỚT HỌC PHẦN ĐÃ ĐĂNG KÝ\n1. Rút bớt học phần là quyền của sinh viên khi nhận thấy khối lượng học tập vượt quá khả năng hoặc gặp l"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p7_c2",
+        "page": 7,
+        "score": 0.0311,
+        "hit": false,
+        "text_snippet": "ĐIỀU 14. QUY TRÌNH VÀ CÔNG NHẬN HỌC PHẦN KHI CHUYỂN NGÀNH\n1. Thời gian nhận đơn chuyển ngành: Mỗi năm chỉ tổ chức nhận đơn 1 đợt duy nhất vào tháng 7 "
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p3_c1",
+        "page": 3,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "c) Thủ tục: Sinh viên thực hiện thao tác hủy học phần trực tiếp trên cổng thông tin đào tạo hoặc nộp đơn có xác nhận của Cố vấn học tập về Phòng Đào t"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c0",
+        "page": 2,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "ĐIỀU 3. THỜI GIAN ĐÀO TẠO VÀ KẾ HOẠCH NĂM HỌC\n1. Năm học được tổ chức theo 2 học kỳ chính (học kỳ I, học kỳ II) và 1 học kỳ phụ (học kỳ hè). Mỗi học k"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p5_c2 | so_tay_sinh_vien_2024 | trang 5]\nĐIỀU 10. THỦ TỤC VÀ HẠN NỘP ĐƠN NGHỈ HỌC TẠM THỜI\n1. Đơn xin nghỉ học tạm thời phải được nộp trước khi học kỳ bắt đầu ít nhất 2 tuần, hoặc chậm nhất là 4 tuần trước kỳ thi kết thúc học phần nếu phát sinh lý do đột xuất về sức khỏe. Đơn nộp sau thời gian này chỉ được xem xét nếu có tai nạn bất khả kháng có biên bản xác nhận của cơ quan y tế. 2. Hồ sơ xin nghỉ học tạm thời gồm: Đơn đề nghị theo mẫu của Phòng Đào tạo; Giấy tờ chứng minh lý do (Lệnh gọi nghĩa vụ quân sự, Bệnh án bệnh viện, Giấy xác nhận hoàn cảnh đặc biệt của chính quyền địa phương); Bản sao thẻ sinh viên và bảng điểm tích lũy tính đến thời điểm nộp đơn. 3.\n\n[B_so-tay-sinh-vien-2024_p3_c0 | so_tay_sinh_vien_2024 | trang 3]\nĐIỀU 5. QUY TRÌNH RÚT BỚT HỌC PHẦN ĐÃ ĐĂNG KÝ\n1. Rút bớt học phần là quyền của sinh viên khi nhận thấy khối lượng học tập vượt quá khả năng hoặc gặp lý do chính đáng về sức khỏe, hoàn cảnh gia đình. Việc rút bớt học phần phải tuân thủ nghiêm ngặt khung thời gian và điều kiện sau:\na) Thời hạn nộp đơn rút bớt học phần: Trong vòng 2 tuần đầu tiên của học kỳ chính và trong vòng 1 tuần đầu tiên của học kỳ hè, tính từ ngày bắt đầu học tập chính thức theo khung năm học. b) Điều kiện rút: Số tín chỉ còn lại sau khi rút bớt không được thấp hơn khối lượng học tập tối thiểu quy định tại Điều 4 (không dưới 14 tín chỉ đối với sinh viên bình thường, và không dưới 10 tín chỉ đối với sinh viên bị cảnh báo học tập).",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p5_c2",
+      "B_so-tay-sinh-vien-2024_p3_c0"
+    ],
+    "context_chars": 1469,
+    "elapsed_ms": 44.2,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Những học phần nào thì sinh viên được phép đăng ký học để cải thiện nâng cao điểm tích lũy?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 3,
+        "evidence": "Sinh viên được phép đăng ký học cải thiện điểm đối với các học phần đã đạt điểm D hoặc D+ nhằm nâng cao điểm trung bình tích lũy."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p3_c2",
+        "page": 3,
+        "score": 0.0325,
+        "hit": true,
+        "text_snippet": "ĐIỀU 6. HỌC LẠI VÀ HỌC CẢI THIỆN ĐIỂM\n1. Học phần bắt buộc có điểm F phải được học lại ở học kỳ tiếp theo có mở lớp học phần đó, hoặc học phần tương đ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c1",
+        "page": 2,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "ĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phầ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p19_c0",
+        "page": 19,
+        "score": 0.029,
+        "hit": false,
+        "text_snippet": "ĐIỀU 37. HÌNH THỨC VÀ TIÊU CHUẨN KHEN THƯỞNG ĐỊNH KỲ\n1. Khen thưởng định kỳ được tiến hành vào cuối mỗi năm học nhằm biểu dương các cá nhân và tập thể"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p13_c0",
+        "page": 13,
+        "score": 0.027,
+        "hit": false,
+        "text_snippet": "ĐIỀU 25. THANG ĐIỂM ĐÁNH GIÁ VÀ TRỌNG SỐ\n1. Điểm học phần được cấu thành từ 2 bộ phận chính:\na) Điểm quá trình: Chiếm trọng số từ 30% đến 50% điểm học"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p18_c1",
+        "page": 18,
+        "score": 0.0164,
+        "hit": false,
+        "text_snippet": "ĐIỀU 36. SỬ DỤNG KẾT QUẢ ĐÁNH GIÁ RÈN LUYỆN\n1. Kết quả rèn luyện học kỳ được sử dụng để:\na) Xét cấp học bổng khuyến khích học tập: Sinh viên phải đạt "
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p3_c2 | so_tay_sinh_vien_2024 | trang 3]\nĐIỀU 6. HỌC LẠI VÀ HỌC CẢI THIỆN ĐIỂM\n1. Học phần bắt buộc có điểm F phải được học lại ở học kỳ tiếp theo có mở lớp học phần đó, hoặc học phần tương đương thay thế nếu học phần cũ không còn mở giảng dạy.\n2. Sinh viên được phép đăng ký học cải thiện điểm đối với các học phần đã đạt điểm D hoặc D+ nhằm nâng cao điểm trung bình tích lũy. Học phần có điểm từ C trở lên không được phép học cải thiện điểm.\n3. Khi tính điểm trung bình tích lũy, điểm của lần học sau cùng sẽ là điểm chính thức thay thế cho điểm của lần học trước đó, ngay cả trong trường hợp điểm lần sau thấp hơn điểm lần trước. Sinh viên phải nộp học phí đầy đủ cho các học phần học lại và học cải thiện theo đơn giá tín chỉ hiện hành.\n\n[B_so-tay-sinh-vien-2024_p13_c0 | so_tay_sinh_vien_2024 | trang 13]\nĐIỀU 25. THANG ĐIỂM ĐÁNH GIÁ VÀ TRỌNG SỐ\n1. Điểm học phần được cấu thành từ 2 bộ phận chính:\na) Điểm quá trình: Chiếm trọng số từ 30% đến 50% điểm học phần, bao gồm điểm chuyên cần (10%), điểm bài tập/thảo luận nhóm (10-20%) và điểm kiểm tra giữa kỳ (15-25%);\nb) Điểm thi kết thúc học phần: Chiếm trọng số từ 50% đến 70% tổng điểm học phần, hình thức thi có thể là tự luận, trắc nghiệm, vấn đáp hoặc bảo vệ đồ án môn học.\n2. Trọng số chi tiết của từng bộ phận được quy định trong Đề cương chi tiết học phần và phải được giảng viên phổ biến công khai cho sinh viên ngay trong tuần đầu tiên của học kỳ.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p3_c2",
+      "B_so-tay-sinh-vien-2024_p13_c0"
+    ],
+    "context_chars": 1435,
+    "elapsed_ms": 38.01,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Sinh viên năm thứ ba bị cảnh báo kết quả học tập khi điểm trung bình tích lũy giảm xuống dưới mức nào?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 4,
+        "evidence": "dưới 1.60 đối với sinh viên năm thứ ba; dưới 1.80 đối với sinh viên các năm tiếp theo"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p4_c0",
+        "page": 4,
+        "score": 0.0328,
+        "hit": true,
+        "text_snippet": "ĐIỀU 7. TIÊU CHÍ CẢNH BÁO KẾT QUẢ HỌC TẬP\n1. Cảnh báo học tập được thực hiện theo từng học kỳ chính nhằm giúp sinh viên nhận thức rõ tình trạng học tậ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p4_c2",
+        "page": 4,
+        "score": 0.0318,
+        "hit": false,
+        "text_snippet": "ĐIỀU 8. CÁC TRƯỜNG HỢP BUỘC THÔI HỌC VÌ LÝ DO HỌC TẬP\nSinh viên bị xem xét buộc thôi học nếu thuộc một trong các trường hợp sau:\n1. Bị cảnh báo kết qu"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p19_c0",
+        "page": 19,
+        "score": 0.0313,
+        "hit": false,
+        "text_snippet": "ĐIỀU 37. HÌNH THỨC VÀ TIÊU CHUẨN KHEN THƯỞNG ĐỊNH KỲ\n1. Khen thưởng định kỳ được tiến hành vào cuối mỗi năm học nhằm biểu dương các cá nhân và tập thể"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p3_c2",
+        "page": 3,
+        "score": 0.0301,
+        "hit": false,
+        "text_snippet": "ĐIỀU 6. HỌC LẠI VÀ HỌC CẢI THIỆN ĐIỂM\n1. Học phần bắt buộc có điểm F phải được học lại ở học kỳ tiếp theo có mở lớp học phần đó, hoặc học phần tương đ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p4_c1",
+        "page": 4,
+        "score": 0.03,
+        "hit": false,
+        "text_snippet": "Cảnh báo học tập được phân chia thành 3 mức độ: Mức 1 (lần đầu vi phạm), Mức 2 (vi phạm 2 lần liên tiếp), Mức 3 (nguy cơ buộc thôi học cao nhất). Phòn"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p4_c0 | so_tay_sinh_vien_2024 | trang 4]\nĐIỀU 7. TIÊU CHÍ CẢNH BÁO KẾT QUẢ HỌC TẬP\n1. Cảnh báo học tập được thực hiện theo từng học kỳ chính nhằm giúp sinh viên nhận thức rõ tình trạng học tập sút kém và kịp thời điều chỉnh phương pháp học tập dưới sự hỗ trợ của Cố vấn học tập. 2. Sinh viên bị cảnh báo kết quả học tập nếu rơi vào một trong các trường hợp sau đây:\na) Điểm trung bình chung học kỳ (ĐTBCHK) đạt dưới 0.80 đối với học kỳ đầu tiên của khóa học; đạt dưới 1.00 đối với các học kỳ tiếp theo; b) Điểm trung bình chung tích lũy (ĐTBTCL) đạt dưới 1.20 đối với sinh viên năm thứ nhất; dưới 1.40 đối với sinh viên năm thứ hai; dưới 1.60 đối với sinh viên năm thứ ba; dưới 1.80 đối với sinh viên các năm tiếp theo; c) Tổng số tín chỉ của các học phần bị điểm F còn tồn đọng chưa qua tính từ đầu khóa học vượt quá 24 tín chỉ. 3.\n\n[B_so-tay-sinh-vien-2024_p4_c1 | so_tay_sinh_vien_2024 | trang 4]\nCảnh báo học tập được phân chia thành 3 mức độ: Mức 1 (lần đầu vi phạm), Mức 2 (vi phạm 2 lần liên tiếp), Mức 3 (nguy cơ buộc thôi học cao nhất). Phòng Đào tạo gửi thông báo cảnh báo học tập về địa chỉ email sinh viên và gửi văn bản về gia đình đối với sinh viên bị cảnh báo từ Mức 2 trở lên.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p4_c0",
+      "B_so-tay-sinh-vien-2024_p4_c1"
+    ],
+    "context_chars": 1217,
+    "elapsed_ms": 35.05,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Thời gian nghỉ học tạm thời vì nhu cầu cá nhân tối đa không được vượt quá bao nhiêu học kỳ chính?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 5,
+        "evidence": "Thời gian nghỉ học tạm thời vì nhu cầu cá nhân được tính theo từng học kỳ và không được vượt quá 4 học kỳ chính (tương đương 2 năm học) trong toàn khóa học."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p5_c1",
+        "page": 5,
+        "score": 0.0328,
+        "hit": true,
+        "text_snippet": "Thời gian nghỉ học tạm thời vì nhu cầu cá nhân được tính theo từng học kỳ và không được vượt quá 4 học kỳ chính (tương đương 2 năm học) trong toàn khó"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c0",
+        "page": 2,
+        "score": 0.0315,
+        "hit": false,
+        "text_snippet": "ĐIỀU 3. THỜI GIAN ĐÀO TẠO VÀ KẾ HOẠCH NĂM HỌC\n1. Năm học được tổ chức theo 2 học kỳ chính (học kỳ I, học kỳ II) và 1 học kỳ phụ (học kỳ hè). Mỗi học k"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p5_c2",
+        "page": 5,
+        "score": 0.0313,
+        "hit": false,
+        "text_snippet": "ĐIỀU 10. THỦ TỤC VÀ HẠN NỘP ĐƠN NGHỈ HỌC TẠM THỜI\n1. Đơn xin nghỉ học tạm thời phải được nộp trước khi học kỳ bắt đầu ít nhất 2 tuần, hoặc chậm nhất l"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c1",
+        "page": 27,
+        "score": 0.0304,
+        "hit": false,
+        "text_snippet": "ĐIỀU 55. THỜI HẠN NỘP HỌC PHÍ VÀ GIA HẠN HỌC PHÍ\n1. Thời hạn nộp học phí: Sinh viên phải hoàn thành toàn bộ học phí của học kỳ chính trong vòng 6 tuần"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c1",
+        "page": 2,
+        "score": 0.0301,
+        "hit": false,
+        "text_snippet": "ĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phầ"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p5_c1 | so_tay_sinh_vien_2024 | trang 5]\nThời gian nghỉ học tạm thời vì nhu cầu cá nhân được tính theo từng học kỳ và không được vượt quá 4 học kỳ chính (tương đương 2 năm học) trong toàn khóa học. Thời gian nghỉ học tạm thời vì nghĩa vụ quân sự không tính vào thời gian tối đa hoàn thành khóa học quy định tại Điều 3.\n\n[B_so-tay-sinh-vien-2024_p2_c0 | so_tay_sinh_vien_2024 | trang 2]\nĐIỀU 3. THỜI GIAN ĐÀO TẠO VÀ KẾ HOẠCH NĂM HỌC\n1. Năm học được tổ chức theo 2 học kỳ chính (học kỳ I, học kỳ II) và 1 học kỳ phụ (học kỳ hè). Mỗi học kỳ chính kéo dài tối thiểu 15 tuần học tập và 3 tuần dành cho thi kết thúc học phần. Học kỳ hè kéo dài tối thiểu 5 tuần học tập và 1 tuần thi, là học kỳ không bắt buộc nhằm tạo điều kiện cho sinh viên học vượt, học cải thiện hoặc học lại.\n2. Thời gian đào tạo chuẩn theo thiết kế chương trình là 4 năm đối với bậc cử nhân và 4,5 đến 5 năm đối với bậc kỹ sư. Thời gian tối đa để sinh viên hoàn thành chương trình không được vượt quá 2 lần thời gian đào tạo chuẩn (tối đa 8 năm đối với cử nhân và 10 năm đối với kỹ sư), tính từ ngày nhập học ghi trên quyết định trúng tuyển.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p5_c1",
+      "B_so-tay-sinh-vien-2024_p2_c0"
+    ],
+    "context_chars": 1132,
+    "elapsed_ms": 25.3,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Sinh viên đăng ký học cùng lúc hai chương trình (song bằng) cần đạt điểm trung bình tích lũy chương trình 1 tối thiểu là bao nhiêu?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 6,
+        "evidence": "Điểm trung bình chung tích lũy của chương trình thứ nhất đạt từ 2.50 trở lên tại thời điểm đăng ký, đồng thời không bị cảnh báo học tập trong cả hai học kỳ gần nhất"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p6_c0",
+        "page": 6,
+        "score": 0.0325,
+        "hit": true,
+        "text_snippet": "ĐIỀU 11. ĐIỀU KIỆN ĐĂNG KÝ HỌC CÙNG LÚC HAI CHƯƠNG TRÌNH\n1. Sinh viên có nguyện vọng học chương trình thứ hai (song ngành/song bằng) phải hoàn thành h"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p6_c1",
+        "page": 6,
+        "score": 0.0318,
+        "hit": false,
+        "text_snippet": "ĐIỀU 12. TỔ CHỨC VÀ QUẢN LÝ ĐÀO TẠO SONG BẰNG\n1. Sinh viên học cùng lúc hai chương trình phải chủ động đăng ký thời khóa biểu phù hợp, bảo đảm không b"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c1",
+        "page": 2,
+        "score": 0.0318,
+        "hit": false,
+        "text_snippet": "ĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phầ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p6_c2",
+        "page": 6,
+        "score": 0.0317,
+        "hit": false,
+        "text_snippet": "Sinh viên chỉ được xét tốt nghiệp chương trình thứ hai nếu đã được công nhận tốt nghiệp ở chương trình thứ nhất, hoặc đủ điều kiện tốt nghiệp cả hai c"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p1_c2",
+        "page": 1,
+        "score": 0.0299,
+        "hit": false,
+        "text_snippet": "Mỗi học phần có khối lượng từ 2 đến 4 tín chỉ, được ký hiệu bằng mã học phần duy nhất gồm 6 đến 8 ký tự chữ và số. Sinh viên cần hoàn thành đầy đủ học"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p6_c0 | so_tay_sinh_vien_2024 | trang 6]\nĐIỀU 11. ĐIỀU KIỆN ĐĂNG KÝ HỌC CÙNG LÚC HAI CHƯƠNG TRÌNH\n1. Sinh viên có nguyện vọng học chương trình thứ hai (song ngành/song bằng) phải hoàn thành học kỳ thứ hai của chương trình thứ nhất và đáp ứng đầy đủ các tiêu chuẩn học lực sau:\na) Điểm trung bình chung tích lũy của chương trình thứ nhất đạt từ 2.50 trở lên tại thời điểm đăng ký, đồng thời không bị cảnh báo học tập trong cả hai học kỳ gần nhất;\nb) Đáp ứng đầy đủ các yêu cầu chuẩn đầu vào của chương trình đào tạo thứ hai theo quy chế tuyển sinh của trường (bao gồm tổ hợp môn xét tuyển hoặc bài kiểm tra năng khiếu nếu có);\nc) Không đang trong thời gian bị thi hành kỷ luật từ mức khiển trách trở lên.\n2. Sinh viên không được phép đăng ký chương trình thứ hai cùng ngành hoặc chuyên ngành đã học ở chương trình thứ nhất.\n\n[B_so-tay-sinh-vien-2024_p6_c2 | so_tay_sinh_vien_2024 | trang 6]\nSinh viên chỉ được xét tốt nghiệp chương trình thứ hai nếu đã được công nhận tốt nghiệp ở chương trình thứ nhất, hoặc đủ điều kiện tốt nghiệp cả hai chương trình cùng một thời điểm. Thời gian tối đa hoàn thành chương trình thứ hai bằng thời gian tối đa của chương trình thứ nhất.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p6_c0",
+      "B_so-tay-sinh-vien-2024_p6_c2"
+    ],
+    "context_chars": 1194,
+    "elapsed_ms": 31.24,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Điểm trung bình tích lũy tối thiểu và tỷ lệ tín chỉ tích lũy cần thiết để sinh viên được nhận làm đồ án tốt nghiệp là gì?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 8,
+        "evidence": "Tích lũy tối thiểu 85% tổng số tín chỉ của chương trình đào tạo ngành học;\nb) Điểm trung bình chung tích lũy tính đến thời điểm xét đạt từ 2.60 trở lên"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p9_c0",
+        "page": 9,
+        "score": 0.0325,
+        "hit": false,
+        "text_snippet": "ĐIỀU 17. ĐIỀU KIỆN ĐƯỢC XÉT CÔNG NHẬN TỐT NGHIỆP\nSinh viên được công nhận tốt nghiệp và cấp bằng tốt nghiệp đại học khi đáp ứng đầy đủ các điều kiện s"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p10_c2",
+        "page": 10,
+        "score": 0.0313,
+        "hit": false,
+        "text_snippet": "ĐIỀU 20. CẤP BẰNG TỐT NGHIỆP VÀ BẢNG ĐIỂM TOÀN KHÓA\n1. Bằng tốt nghiệp đại học và Bảng điểm toàn khóa được cấp cho sinh viên trong vòng 30 ngày làm vi"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c1",
+        "page": 2,
+        "score": 0.0313,
+        "hit": false,
+        "text_snippet": "ĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phầ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p10_c0",
+        "page": 10,
+        "score": 0.0306,
+        "hit": false,
+        "text_snippet": "ĐIỀU 19. PHÂN LOẠI XẾP HẠNG TỐT NGHIỆP\n1. Hạng tốt nghiệp được xác định căn cứ vào điểm trung bình chung tích lũy (ĐTBTCL) của toàn khóa học như sau:\n"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p8_c0",
+        "page": 8,
+        "score": 0.0299,
+        "hit": false,
+        "text_snippet": "ĐIỀU 15. ĐIỀU KIỆN NHẬN ĐỒ ÁN, KHÓA LUẬN TỐT NGHIỆP\n1. Đồ án hoặc khóa luận tốt nghiệp (KLTN) là học phần tổng hợp cuối khóa có khối lượng từ 6 đến 10"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p9_c0 | so_tay_sinh_vien_2024 | trang 9]\nĐIỀU 17. ĐIỀU KIỆN ĐƯỢC XÉT CÔNG NHẬN TỐT NGHIỆP\nSinh viên được công nhận tốt nghiệp và cấp bằng tốt nghiệp đại học khi đáp ứng đầy đủ các điều kiện sau:\n1. Cho đến thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập; 2. Tích lũy đủ số tín chỉ và hoàn thành đầy đủ tất cả các học phần bắt buộc, tự chọn theo yêu cầu của chương trình đào tạo ngành theo học; 3. Điểm trung bình chung tích lũy của toàn khóa học đạt từ 2.00 trở lên (theo thang điểm 4.0); 4. Đạt chuẩn đầu ra về năng lực ngoại ngữ theo quy định của nhà trường:\na) Đối với bậc đại học không chuyên ngữ: Chứng chỉ tiếng Anh TOEIC tối thiểu 550 điểm, hoặc IELTS 5.5, TOEFL iBT 60 điểm, hoặc các chứng chỉ quốc tế tương đương còn hiệu lực tại thời điểm nộp;\n\n[B_so-tay-sinh-vien-2024_p10_c2 | so_tay_sinh_vien_2024 | trang 10]\nĐIỀU 20. CẤP BẰNG TỐT NGHIỆP VÀ BẢNG ĐIỂM TOÀN KHÓA\n1. Bằng tốt nghiệp đại học và Bảng điểm toàn khóa được cấp cho sinh viên trong vòng 30 ngày làm việc kể từ ngày có Quyết định công nhận tốt nghiệp của Hiệu trưởng. Bảng điểm toàn khóa ghi rõ tên các học phần, số tín chỉ, điểm số thang 10, điểm thang chữ, điểm thang 4 và xếp loại tốt nghiệp.\n2. Bằng tốt nghiệp chỉ cấp chính thức một lần duy nhất. Trường hợp bằng bị mất hoặc hư hỏng, nhà trường chỉ cấp Bản sao trích lục từ sổ gốc cấp văn bằng có giá trị pháp lý tương đương theo quy định của pháp luật.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p9_c0",
+      "B_so-tay-sinh-vien-2024_p10_c2"
+    ],
+    "context_chars": 1485,
+    "elapsed_ms": 30.67,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Thí sinh đến muộn bao nhiêu phút sau khi phát đề thi thì sẽ không được vào thi và bị điểm 0?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 11,
+        "evidence": "Thí sinh đến muộn quá 15 phút sau khi phát đề thi (đối với bài thi tự luận) hoặc sau khi bắt đầu ca thi (đối với bài thi trắc nghiệm trên máy tính) sẽ không được phép dự thi và bị tính điểm 0 (không) cho buổi thi đó."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p11_c2",
+        "page": 11,
+        "score": 0.0328,
+        "hit": true,
+        "text_snippet": "ĐIỀU 22. TRÁCH NHIỆM CỦA THÍ SINH TRONG PHÒNG THI\n1. Thí sinh phải có mặt tại cửa phòng thi trước giờ bắt đầu làm bài ít nhất 15 phút. Khi vào phòng t"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p12_c2",
+        "page": 12,
+        "score": 0.031,
+        "hit": false,
+        "text_snippet": "ĐIỀU 24. TỔ CHỨC THI CHO SINH VIÊN ĐƯỢC HOÃN THI\n1. Sinh viên có quyết định hoãn thi hợp lệ sẽ được ghi điểm 'I' (Incomplete - Chưa hoàn thành) trên b"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p12_c1",
+        "page": 12,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "Quy trình nộp đơn xin hoãn thi:\na) Sinh viên hoặc người nhà được ủy quyền phải nộp Đơn xin hoãn thi kèm theo các minh chứng hợp lệ về Phòng Khảo thí v"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p16_c1",
+        "page": 16,
+        "score": 0.0301,
+        "hit": false,
+        "text_snippet": "b) Bị cấm thi tất cả các môn thi còn lại trong kỳ thi của học kỳ đó; c) Phải rời khỏi phòng thi ngay sau khi có quyết định đình chỉ thi của Trưởng điể"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p14_c0",
+        "page": 14,
+        "score": 0.0291,
+        "hit": false,
+        "text_snippet": "ĐIỀU 27. QUY ĐỊNH PHÚC KHẢO BÀI THI KẾT THÚC HỌC PHẦN\n1. Mọi sinh viên đều có quyền đề nghị phúc khảo bài thi kết thúc học phần nếu nhận thấy điểm thi"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p11_c2 | so_tay_sinh_vien_2024 | trang 11]\nĐIỀU 22. TRÁCH NHIỆM CỦA THÍ SINH TRONG PHÒNG THI\n1. Thí sinh phải có mặt tại cửa phòng thi trước giờ bắt đầu làm bài ít nhất 15 phút. Khi vào phòng thi, thí sinh bắt buộc phải xuất trình Thẻ sinh viên có ảnh hoặc Căn cước công dân gắn chip hợp lệ cho cán bộ coi thi. 2. Thí sinh đến muộn quá 15 phút sau khi phát đề thi (đối với bài thi tự luận) hoặc sau khi bắt đầu ca thi (đối với bài thi trắc nghiệm trên máy tính) sẽ không được phép dự thi và bị tính điểm 0 (không) cho buổi thi đó. 3. Thí sinh chỉ được mang vào phòng thi: bút viết, bút chì, compa, thước kẻ, máy tính cầm tay không có chức năng soạn thảo văn bản và không có thẻ nhớ.\n\n[B_so-tay-sinh-vien-2024_p12_c2 | so_tay_sinh_vien_2024 | trang 12]\nĐIỀU 24. TỔ CHỨC THI CHO SINH VIÊN ĐƯỢC HOÃN THI\n1. Sinh viên có quyết định hoãn thi hợp lệ sẽ được ghi điểm 'I' (Incomplete - Chưa hoàn thành) trên bảng điểm học kỳ đối với học phần tương ứng. Điểm 'I' không tính vào điểm trung bình học kỳ tại thời điểm xét học bổng kỳ đó.\n2. Sinh viên được bố trí thi bổ sung vào đợt thi kết thúc học phần của kỳ học kế tiếp gần nhất có mở học phần đó, hoặc tham gia đợt thi vét do Phòng Khảo thí tổ chức vào đầu năm học mới.\n3. Trong vòng 1 học kỳ chính tiếp theo, nếu sinh viên không tham gia thi bổ sung để hoàn tất điểm học phần, điểm 'I' sẽ tự động chuyển thành điểm F (0.0). Sinh viên thi lần đầu theo diện hoãn thi hợp lệ không phải nộp lệ phí thi bổ sung.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p11_c2",
+      "B_so-tay-sinh-vien-2024_p12_c2"
+    ],
+    "context_chars": 1476,
+    "elapsed_ms": 29.68,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Trong trường hợp nào thì đơn xin hoãn thi của sinh viên sẽ không được xem xét và bị tính điểm 0?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 12,
+        "evidence": "Đơn nộp quá thời hạn 3 ngày nêu trên sẽ không được xem xét, sinh viên bị tính điểm 0 cho bài thi vắng mặt không lý do."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p12_c1",
+        "page": 12,
+        "score": 0.0328,
+        "hit": true,
+        "text_snippet": "Quy trình nộp đơn xin hoãn thi:\na) Sinh viên hoặc người nhà được ủy quyền phải nộp Đơn xin hoãn thi kèm theo các minh chứng hợp lệ về Phòng Khảo thí v"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p12_c0",
+        "page": 12,
+        "score": 0.032,
+        "hit": false,
+        "text_snippet": "ĐIỀU 23. ĐIỀU KIỆN VÀ THỦ TỤC XIN HOÃN THI\n1. Sinh viên được phép nộp đơn xin hoãn thi kết thúc học phần trong các trường hợp bất khả kháng sau:\na) Bị"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p12_c2",
+        "page": 12,
+        "score": 0.0313,
+        "hit": false,
+        "text_snippet": "ĐIỀU 24. TỔ CHỨC THI CHO SINH VIÊN ĐƯỢC HOÃN THI\n1. Sinh viên có quyết định hoãn thi hợp lệ sẽ được ghi điểm 'I' (Incomplete - Chưa hoàn thành) trên b"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c2",
+        "page": 27,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "ĐIỀU 56. CHẾ TÀI XỬ LÝ VI PHẠM THỜI HẠN NỘP HỌC PHÍ\nSinh viên không nộp học phí đúng hạn và không có đơn xin gia hạn được chấp thuận sẽ bị xử lý kỷ lu"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p3_c1",
+        "page": 3,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "c) Thủ tục: Sinh viên thực hiện thao tác hủy học phần trực tiếp trên cổng thông tin đào tạo hoặc nộp đơn có xác nhận của Cố vấn học tập về Phòng Đào t"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p12_c1 | so_tay_sinh_vien_2024 | trang 12]\nQuy trình nộp đơn xin hoãn thi:\na) Sinh viên hoặc người nhà được ủy quyền phải nộp Đơn xin hoãn thi kèm theo các minh chứng hợp lệ về Phòng Khảo thí và Đảm bảo chất lượng chậm nhất là 3 ngày làm việc kể từ ngày tổ chức ca thi đó. b) Đơn nộp quá thời hạn 3 ngày nêu trên sẽ không được xem xét, sinh viên bị tính điểm 0 cho bài thi vắng mặt không lý do.\n\n[B_so-tay-sinh-vien-2024_p12_c0 | so_tay_sinh_vien_2024 | trang 12]\nĐIỀU 23. ĐIỀU KIỆN VÀ THỦ TỤC XIN HOÃN THI\n1. Sinh viên được phép nộp đơn xin hoãn thi kết thúc học phần trong các trường hợp bất khả kháng sau:\na) Bị ốm đau, tai nạn đột xuất phải nằm viện điều trị trong thời gian diễn ra kỳ thi, có giấy nhập viện và xác nhận của bệnh viện cấp quận/huyện trở lên; b) Gia đình có tang tứ thân phụ mẫu (cha mẹ ruột, cha mẹ vợ/chồng, người nuôi dưỡng hợp pháp, vợ/chồng, con, anh chị em ruột) xảy ra trong vòng 3 ngày trước ngày thi; c) Được nhà trường cử đi tham gia các nhiệm vụ chính trị, văn hóa, thể thao cấp quốc gia hoặc quốc tế trùng với lịch thi. 2.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p12_c1",
+      "B_so-tay-sinh-vien-2024_p12_c0"
+    ],
+    "context_chars": 1079,
+    "elapsed_ms": 27.78,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Thời hạn nộp đơn đề nghị phúc khảo bài thi kết thúc học phần là bao nhiêu ngày kể từ khi công bố điểm thi?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 14,
+        "evidence": "Thời hạn nộp đơn phúc khảo: Trong vòng 7 ngày làm việc kể từ ngày Phòng Khảo thí công bố điểm thi chính thức trên cổng portal sinh viên."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p14_c0",
+        "page": 14,
+        "score": 0.0328,
+        "hit": true,
+        "text_snippet": "ĐIỀU 27. QUY ĐỊNH PHÚC KHẢO BÀI THI KẾT THÚC HỌC PHẦN\n1. Mọi sinh viên đều có quyền đề nghị phúc khảo bài thi kết thúc học phần nếu nhận thấy điểm thi"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p14_c3",
+        "page": 14,
+        "score": 0.0323,
+        "hit": false,
+        "text_snippet": "c) Nếu điểm phúc khảo lệch từ 1.0 điểm trở lên so với điểm ban đầu, Trưởng Phòng Khảo thí tổ chức chấm tập thể có biên bản và báo cáo Ban Giám hiệu xe"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p12_c1",
+        "page": 12,
+        "score": 0.0317,
+        "hit": false,
+        "text_snippet": "Quy trình nộp đơn xin hoãn thi:\na) Sinh viên hoặc người nhà được ủy quyền phải nộp Đơn xin hoãn thi kèm theo các minh chứng hợp lệ về Phòng Khảo thí v"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p12_c2",
+        "page": 12,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "ĐIỀU 24. TỔ CHỨC THI CHO SINH VIÊN ĐƯỢC HOÃN THI\n1. Sinh viên có quyết định hoãn thi hợp lệ sẽ được ghi điểm 'I' (Incomplete - Chưa hoàn thành) trên b"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p11_c0",
+        "page": 11,
+        "score": 0.0305,
+        "hit": false,
+        "text_snippet": "ĐIỀU 21. ĐIỀU KIỆN DỰ THI KẾT THÚC HỌC PHẦN\n1. Sinh viên được dự thi kết thúc học phần nếu đáp ứng đầy đủ các tiêu chí chuyên cần và đánh giá quá trìn"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p14_c0 | so_tay_sinh_vien_2024 | trang 14]\nĐIỀU 27. QUY ĐỊNH PHÚC KHẢO BÀI THI KẾT THÚC HỌC PHẦN\n1. Mọi sinh viên đều có quyền đề nghị phúc khảo bài thi kết thúc học phần nếu nhận thấy điểm thi công bố chưa phản ánh chính xác kết quả làm bài của mình. 2. Thời hạn nộp đơn phúc khảo: Trong vòng 7 ngày làm việc kể từ ngày Phòng Khảo thí công bố điểm thi chính thức trên cổng portal sinh viên. Sau thời hạn 7 ngày làm việc này, nhà trường không giải quyết bất kỳ đơn đề nghị phúc khảo nào. 3. Thủ tục nộp đơn phúc khảo: Sinh viên nộp đơn theo mẫu trực tuyến trên cổng portal hoặc nộp bản giấy tại bộ phận Một cửa Phòng Khảo thí, kèm biên lai nộp lệ phí phúc khảo (50.000 VNĐ/bài thi). Lệ phí sẽ được hoàn trả cho sinh viên nếu điểm phúc khảo tăng từ 0.5 điểm trở lên (thang 10). 4.\n\n[B_so-tay-sinh-vien-2024_p14_c3 | so_tay_sinh_vien_2024 | trang 14]\nc) Nếu điểm phúc khảo lệch từ 1.0 điểm trở lên so với điểm ban đầu, Trưởng Phòng Khảo thí tổ chức chấm tập thể có biên bản và báo cáo Ban Giám hiệu xem xét xử lý trách nhiệm cán bộ chấm lần 1 nếu có sai sót nghiêm trọng. 3. Thời hạn công bố kết quả phúc khảo không quá 15 ngày làm việc kể từ ngày hết hạn nhận đơn.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p14_c0",
+      "B_so-tay-sinh-vien-2024_p14_c3"
+    ],
+    "context_chars": 1188,
+    "elapsed_ms": 26.15,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Thí sinh bị kỷ luật khiển trách trong kỳ thi sẽ bị trừ bao nhiêu phần trăm số điểm bài thi môn đó?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 15,
+        "evidence": "Thí sinh bị kỷ luật khiển trách trong kỳ thi môn nào sẽ bị trừ 25% tổng số điểm của bài thi môn đó."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p16_c1",
+        "page": 16,
+        "score": 0.0318,
+        "hit": false,
+        "text_snippet": "b) Bị cấm thi tất cả các môn thi còn lại trong kỳ thi của học kỳ đó; c) Phải rời khỏi phòng thi ngay sau khi có quyết định đình chỉ thi của Trưởng điể"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p15_c0",
+        "page": 15,
+        "score": 0.0311,
+        "hit": true,
+        "text_snippet": "ĐIỀU 29. HÌNH THỨC KỶ LUẬT KHIỂN TRÁCH PHÒNG THI\n1. Hình thức kỷ luật Khiển trách áp dụng đối với thí sinh phạm lỗi một lần trong các hành vi sau:\na) "
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p13_c0",
+        "page": 13,
+        "score": 0.0303,
+        "hit": false,
+        "text_snippet": "ĐIỀU 25. THANG ĐIỂM ĐÁNH GIÁ VÀ TRỌNG SỐ\n1. Điểm học phần được cấu thành từ 2 bộ phận chính:\na) Điểm quá trình: Chiếm trọng số từ 30% đến 50% điểm học"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p11_c2",
+        "page": 11,
+        "score": 0.0299,
+        "hit": false,
+        "text_snippet": "ĐIỀU 22. TRÁCH NHIỆM CỦA THÍ SINH TRONG PHÒNG THI\n1. Thí sinh phải có mặt tại cửa phòng thi trước giờ bắt đầu làm bài ít nhất 15 phút. Khi vào phòng t"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p11_c1",
+        "page": 11,
+        "score": 0.0284,
+        "hit": false,
+        "text_snippet": "Sinh viên không đủ điều kiện dự thi sẽ nhận điểm F cho học phần đó và phải đăng ký học lại học phần ở các kỳ sau."
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p16_c1 | so_tay_sinh_vien_2024 | trang 16]\nb) Bị cấm thi tất cả các môn thi còn lại trong kỳ thi của học kỳ đó; c) Phải rời khỏi phòng thi ngay sau khi có quyết định đình chỉ thi của Trưởng điểm thi và bàn giao toàn bộ tang vật.\n\n[B_so-tay-sinh-vien-2024_p15_c0 | so_tay_sinh_vien_2024 | trang 15]\nĐIỀU 29. HÌNH THỨC KỶ LUẬT KHIỂN TRÁCH PHÒNG THI\n1. Hình thức kỷ luật Khiển trách áp dụng đối với thí sinh phạm lỗi một lần trong các hành vi sau:\na) Nhìn bài hoặc cố ý cho bạn nhìn bài thi của mình trong giờ làm bài;\nb) Trao đổi bài, trao đổi lời nói hoặc có cử chỉ liên lạc với thí sinh khác trong phòng thi sau khi đã bị cán bộ coi thi nhắc nhở 01 lần nhưng vẫn tiếp tục vi phạm;\nc) Mang tài liệu không được phép vào phòng thi nhưng chưa mở ra xem hoặc chưa sử dụng, bị cán bộ coi thi phát hiện trong quá trình làm bài.\n2. Mức độ xử phạt: Thí sinh bị kỷ luật khiển trách trong kỳ thi môn nào sẽ bị trừ 25% tổng số điểm của bài thi môn đó. Cán bộ coi thi lập biên bản vi phạm tại chỗ, ghi rõ hành vi và công bố công khai cho thí sinh trong phòng thi biết.\n\n[B_so-tay-sinh-vien-2024_p11_c1 | so_tay_sinh_vien_2024 | trang 11]\nSinh viên không đủ điều kiện dự thi sẽ nhận điểm F cho học phần đó và phải đăng ký học lại học phần ở các kỳ sau.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p16_c1",
+      "B_so-tay-sinh-vien-2024_p15_c0",
+      "B_so-tay-sinh-vien-2024_p11_c1"
+    ],
+    "context_chars": 1263,
+    "elapsed_ms": 27.05,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Điểm rèn luyện của sinh viên được đánh giá theo thang điểm bao nhiêu và chia thành mấy tiêu chí?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 17,
+        "evidence": "Điểm rèn luyện được đánh giá theo thang điểm 100, phân bổ vào 5 tiêu chí thành phần cụ thể như sau"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p17_c1",
+        "page": 17,
+        "score": 0.0328,
+        "hit": true,
+        "text_snippet": "ĐIỀU 34. NỘI DUNG VÀ KHUNG ĐIỂM ĐÁNH GIÁ RÈN LUYỆN\nĐiểm rèn luyện được đánh giá theo thang điểm 100, phân bổ vào 5 tiêu chí thành phần cụ thể như sau:"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p18_c0",
+        "page": 18,
+        "score": 0.032,
+        "hit": false,
+        "text_snippet": "ĐIỀU 35. PHÂN LOẠI KẾT QUẢ RÈN LUYỆN\n1. Kết quả rèn luyện của sinh viên trong từng học kỳ và toàn khóa học được xếp thành các loại sau:\na) Loại Xuất s"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p17_c0",
+        "page": 17,
+        "score": 0.0313,
+        "hit": false,
+        "text_snippet": "ĐIỀU 33. MỤC ĐÍCH VÀ NGUYÊN TẮC ĐÁNH GIÁ RÈN LUYỆN\n1. Đánh giá kết quả rèn luyện của sinh viên là việc xác định mức độ rèn luyện phẩm chất đạo đức, lố"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p18_c1",
+        "page": 18,
+        "score": 0.0308,
+        "hit": false,
+        "text_snippet": "ĐIỀU 36. SỬ DỤNG KẾT QUẢ ĐÁNH GIÁ RÈN LUYỆN\n1. Kết quả rèn luyện học kỳ được sử dụng để:\na) Xét cấp học bổng khuyến khích học tập: Sinh viên phải đạt "
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p11_c0",
+        "page": 11,
+        "score": 0.0298,
+        "hit": false,
+        "text_snippet": "ĐIỀU 21. ĐIỀU KIỆN DỰ THI KẾT THÚC HỌC PHẦN\n1. Sinh viên được dự thi kết thúc học phần nếu đáp ứng đầy đủ các tiêu chí chuyên cần và đánh giá quá trìn"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p17_c1 | so_tay_sinh_vien_2024 | trang 17]\nĐIỀU 34. NỘI DUNG VÀ KHUNG ĐIỂM ĐÁNH GIÁ RÈN LUYỆN\nĐiểm rèn luyện được đánh giá theo thang điểm 100, phân bổ vào 5 tiêu chí thành phần cụ thể như sau:\n1. Tiêu chí 1: Đánh giá về ý thức học tập (Khung điểm từ 0 đến 20 điểm): Bao gồm ý thức đi học đầy đủ, đúng giờ; thái độ nghiêm túc trong giờ học; kết quả học tập trong học kỳ; tham gia nghiên cứu khoa học, các câu lạc bộ học thuật và các cuộc thi chuyên môn. 2. Tiêu chí 2: Đánh giá về ý thức chấp hành pháp luật và quy chế nhà trường (Khung điểm từ 0 đến 25 điểm): Bao gồm chấp hành chủ trương, đường lối của Đảng, pháp luật của Nhà nước; chấp hành quy chế đào tạo, nội quy giảng đường, không vi phạm giao thông và các tệ nạn xã hội. 3.\n\n[B_so-tay-sinh-vien-2024_p17_c0 | so_tay_sinh_vien_2024 | trang 17]\nĐIỀU 33. MỤC ĐÍCH VÀ NGUYÊN TẮC ĐÁNH GIÁ RÈN LUYỆN\n1. Đánh giá kết quả rèn luyện của sinh viên là việc xác định mức độ rèn luyện phẩm chất đạo đức, lối sống, ý thức chấp hành pháp luật và trách nhiệm cộng đồng của sinh viên theo từng học kỳ và toàn khóa học.\n2. Điểm rèn luyện (ĐRL) được đánh giá công bằng, dân chủ, công khai, khách quan thông qua hệ thống tự đánh giá của cá nhân sinh viên, tập thể lớp sinh viên họp xét và Hội đồng đánh giá rèn luyện cấp Khoa, cấp Trường thẩm định phê duyệt.\n3. Điểm rèn luyện của từng học kỳ là căn cứ để xét cấp học bổng khuyến khích học tập, xét khen thưởng, xét lưu trú ký túc xá, xét thôi học hoặc kỷ luật sinh viên.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p17_c1",
+      "B_so-tay-sinh-vien-2024_p17_c0"
+    ],
+    "context_chars": 1485,
+    "elapsed_ms": 25.24,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Sinh viên bị xếp loại rèn luyện Yếu hoặc Kém trong mấy học kỳ liên tiếp thì sẽ bị tạm ngừng học tập?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 18,
+        "evidence": "Sinh viên bị xếp loại rèn luyện Yếu hoặc Kém trong 02 học kỳ liên tiếp sẽ phải tạm ngừng học tập 01 học kỳ chính tiếp theo"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p4_c2",
+        "page": 4,
+        "score": 0.0318,
+        "hit": false,
+        "text_snippet": "ĐIỀU 8. CÁC TRƯỜNG HỢP BUỘC THÔI HỌC VÌ LÝ DO HỌC TẬP\nSinh viên bị xem xét buộc thôi học nếu thuộc một trong các trường hợp sau:\n1. Bị cảnh báo kết qu"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p18_c1",
+        "page": 18,
+        "score": 0.0301,
+        "hit": true,
+        "text_snippet": "ĐIỀU 36. SỬ DỤNG KẾT QUẢ ĐÁNH GIÁ RÈN LUYỆN\n1. Kết quả rèn luyện học kỳ được sử dụng để:\na) Xét cấp học bổng khuyến khích học tập: Sinh viên phải đạt "
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c2",
+        "page": 27,
+        "score": 0.0299,
+        "hit": false,
+        "text_snippet": "ĐIỀU 56. CHẾ TÀI XỬ LÝ VI PHẠM THỜI HẠN NỘP HỌC PHÍ\nSinh viên không nộp học phí đúng hạn và không có đơn xin gia hạn được chấp thuận sẽ bị xử lý kỷ lu"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p2_c1",
+        "page": 2,
+        "score": 0.0296,
+        "hit": false,
+        "text_snippet": "ĐIỀU 4. QUY ĐỊNH VỀ ĐĂNG KÝ HỌC PHẦN\n1. Trước mỗi học kỳ chính ít nhất 4 tuần, Phòng Đào tạo công bố thời khóa biểu dự kiến, danh sách các lớp học phầ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p32_c2",
+        "page": 32,
+        "score": 0.0286,
+        "hit": false,
+        "text_snippet": "ĐIỀU 66. THÔNG BÁO VỀ KHOA VÀ GHI NHẬN HỒ SƠ RÈN LUYỆN\n1. Mọi quyết định kỷ luật từ mức Khiển trách trở lên tại Ký túc xá đều được gửi bằng văn bản về"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p4_c2 | so_tay_sinh_vien_2024 | trang 4]\nĐIỀU 8. CÁC TRƯỜNG HỢP BUỘC THÔI HỌC VÌ LÝ DO HỌC TẬP\nSinh viên bị xem xét buộc thôi học nếu thuộc một trong các trường hợp sau:\n1. Bị cảnh báo kết quả học tập Mức 3 (hoặc bị cảnh báo học tập 3 lần liên tiếp trong 3 học kỳ chính);\n2. Có tổng số lần bị cảnh báo học tập vượt quá 4 lần trong toàn bộ quá trình đào tạo;\n3. Vượt quá thời gian tối đa được phép học tập tại trường theo quy định tại Khoản 2 Điều 3 (quá 8 năm đối với cử nhân, quá 10 năm đối với kỹ sư);\n4. Tự ý bỏ học không đăng ký học phần trong một học kỳ chính mà không có đơn xin nghỉ học tạm thời được Hiệu trưởng phê duyệt;\n5. Bị kỷ luật ở mức buộc thôi học do vi phạm pháp luật hoặc vi phạm nghiêm trọng quy chế thi cử, đạo đức học đường.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p4_c2"
+    ],
+    "context_chars": 771,
+    "elapsed_ms": 33.58,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Để đạt học bổng khuyến khích học tập mức Xuất sắc, sinh viên cần đạt điểm học tập và điểm rèn luyện như thế nào?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 23,
+        "evidence": "Mức Xuất sắc: Cấp cho sinh viên có Điểm trung bình học tập (ĐTBHT) đạt từ 3.60 đến 4.00 và ĐRL đạt loại Xuất sắc (từ 90 điểm trở lên). Mức học bổng bằng 120% mức trần học phí của ngành học"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p18_c1",
+        "page": 18,
+        "score": 0.032,
+        "hit": false,
+        "text_snippet": "ĐIỀU 36. SỬ DỤNG KẾT QUẢ ĐÁNH GIÁ RÈN LUYỆN\n1. Kết quả rèn luyện học kỳ được sử dụng để:\na) Xét cấp học bổng khuyến khích học tập: Sinh viên phải đạt "
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p23_c0",
+        "page": 23,
+        "score": 0.032,
+        "hit": false,
+        "text_snippet": "ĐIỀU 45. NGUYÊN TẮC VÀ ĐỐI TƯỢNG XÉT HỌC BỔNG KKHT\n1. Quỹ học bổng khuyến khích học tập được trích tối thiểu 8% từ nguồn thu học phí của trường để cấp"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p23_c2",
+        "page": 23,
+        "score": 0.031,
+        "hit": true,
+        "text_snippet": "ĐIỀU 46. CÁC MỨC HỌC BỔNG VÀ CÁCH XÉT CHỌN\n1. Học bổng KKHT được chia thành 3 mức:\na) Mức Xuất sắc: Cấp cho sinh viên có Điểm trung bình học tập (ĐTBH"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p19_c0",
+        "page": 19,
+        "score": 0.0309,
+        "hit": false,
+        "text_snippet": "ĐIỀU 37. HÌNH THỨC VÀ TIÊU CHUẨN KHEN THƯỞNG ĐỊNH KỲ\n1. Khen thưởng định kỳ được tiến hành vào cuối mỗi năm học nhằm biểu dương các cá nhân và tập thể"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p17_c0",
+        "page": 17,
+        "score": 0.029,
+        "hit": false,
+        "text_snippet": "ĐIỀU 33. MỤC ĐÍCH VÀ NGUYÊN TẮC ĐÁNH GIÁ RÈN LUYỆN\n1. Đánh giá kết quả rèn luyện của sinh viên là việc xác định mức độ rèn luyện phẩm chất đạo đức, lố"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p18_c1 | so_tay_sinh_vien_2024 | trang 18]\nĐIỀU 36. SỬ DỤNG KẾT QUẢ ĐÁNH GIÁ RÈN LUYỆN\n1. Kết quả rèn luyện học kỳ được sử dụng để:\na) Xét cấp học bổng khuyến khích học tập: Sinh viên phải đạt điểm rèn luyện từ loại Khá trở lên mới đủ điều kiện xét học bổng;\nb) Xét ưu tiên giao đề tài đồ án, khóa luận tốt nghiệp và học cùng lúc hai chương trình;\nc) Xét bình chọn danh hiệu \"Sinh viên 5 tốt\", đoàn viên ưu tú và giới thiệu kết nạp Đảng.\n2. Xử lý sinh viên có điểm rèn luyện yếu, kém:\na) Sinh viên bị xếp loại rèn luyện Yếu hoặc Kém trong 02 học kỳ liên tiếp sẽ phải tạm ngừng học tập 01 học kỳ chính tiếp theo;\nb) Sinh viên bị xếp loại rèn luyện Yếu hoặc Kém trong 03 học kỳ liên tiếp hoặc 04 học kỳ không liên tiếp trong toàn khóa học sẽ bị xem xét Buộc thôi học.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p18_c1"
+    ],
+    "context_chars": 790,
+    "elapsed_ms": 29.23,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Sinh viên là con của cán bộ công chức bị tai nạn lao động hoặc bệnh nghề nghiệp được giảm bao nhiêu phần trăm học phí?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 25,
+        "evidence": "Đối tượng được giảm 50% học phí:\nSinh viên là con của cán bộ, công chức, viên chức, công nhân mà cha hoặc mẹ bị tai nạn lao động hoặc mắc bệnh nghề nghiệp được hưởng trợ cấp thường xuyên"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p25_c2",
+        "page": 25,
+        "score": 0.0328,
+        "hit": true,
+        "text_snippet": "ĐIỀU 50. ĐỐI TƯỢNG ĐƯỢC GIẢM 70% VÀ 50% HỌC PHÍ\n1. Đối tượng được giảm 70% học phí:\nSinh viên là người dân tộc thiểu số (ngoài 16 dân tộc rất ít người"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p25_c3",
+        "page": 25,
+        "score": 0.0306,
+        "hit": false,
+        "text_snippet": "ĐIỀU 51. THỦ TỤC VÀ HỒ SƠ XIN MIỄN GIẢM HỌC PHÍ\n1. Sinh viên thuộc đối tượng miễn, giảm học phí chỉ cần nộp 01 bộ hồ sơ duy nhất cho cả khóa học vào đ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p25_c0",
+        "page": 25,
+        "score": 0.0296,
+        "hit": false,
+        "text_snippet": "ĐIỀU 49. ĐỐI TƯỢNG ĐƯỢC MIỄN 100% HỌC PHÍ\nTheo quy định tại Nghị định 81/2021/NĐ-CP của Chính phủ, các đối tượng sinh viên sau được miễn 100% học phí:"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p3_c1",
+        "page": 3,
+        "score": 0.0292,
+        "hit": false,
+        "text_snippet": "c) Thủ tục: Sinh viên thực hiện thao tác hủy học phần trực tiếp trên cổng thông tin đào tạo hoặc nộp đơn có xác nhận của Cố vấn học tập về Phòng Đào t"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p26_c2",
+        "page": 26,
+        "score": 0.0291,
+        "hit": false,
+        "text_snippet": "ĐIỀU 53. CHÍNH SÁCH HỖ TRỢ CHI PHÍ HỌC TẬP\n1. Sinh viên là người dân tộc thiểu số thuộc hộ nghèo hoặc hộ cận nghèo theo quy định của Thủ tướng Chính p"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p25_c2 | so_tay_sinh_vien_2024 | trang 25]\nĐIỀU 50. ĐỐI TƯỢNG ĐƯỢC GIẢM 70% VÀ 50% HỌC PHÍ\n1. Đối tượng được giảm 70% học phí:\nSinh viên là người dân tộc thiểu số (ngoài 16 dân tộc rất ít người nêu tại Điều 49) ở thôn/bản đặc biệt khó khăn, xã khu vực III vùng dân tộc và miền núi, xã đặc biệt khó khăn vùng bãi ngang ven biển và hải đảo theo quy định của Thủ tướng Chính phủ.\n2. Đối tượng được giảm 50% học phí:\nSinh viên là con của cán bộ, công chức, viên chức, công nhân mà cha hoặc mẹ bị tai nạn lao động hoặc mắc bệnh nghề nghiệp được hưởng trợ cấp thường xuyên theo quy định của Luật Bảo hiểm xã hội.\n\n[B_so-tay-sinh-vien-2024_p25_c3 | so_tay_sinh_vien_2024 | trang 25]\nĐIỀU 51. THỦ TỤC VÀ HỒ SƠ XIN MIỄN GIẢM HỌC PHÍ\n1. Sinh viên thuộc đối tượng miễn, giảm học phí chỉ cần nộp 01 bộ hồ sơ duy nhất cho cả khóa học vào đầu học kỳ I của năm thứ nhất. Hồ sơ gồm: Đơn đề nghị miễn giảm học phí theo mẫu; Bản sao công chứng giấy tờ chứng minh đối tượng ưu tiên (Giấy xác nhận người có công, Giấy chứng nhận hộ nghèo/cận nghèo, Giấy khai sinh, Giấy xác nhận tình trạng khuyết tật).\n2. Thời hạn nộp hồ sơ: Trong vòng 30 ngày kể từ ngày bắt đầu học kỳ chính thức.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p25_c2",
+      "B_so-tay-sinh-vien-2024_p25_c3"
+    ],
+    "context_chars": 1187,
+    "elapsed_ms": 28.11,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Thời hạn hoàn thành toàn bộ học phí của học kỳ chính là trong vòng mấy tuần đầu tiên của kỳ học?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 27,
+        "evidence": "Thời hạn nộp học phí: Sinh viên phải hoàn thành toàn bộ học phí của học kỳ chính trong vòng 6 tuần đầu tiên của học kỳ (tương ứng 42 ngày kể từ ngày bắt đầu học tập)."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c1",
+        "page": 27,
+        "score": 0.0328,
+        "hit": true,
+        "text_snippet": "ĐIỀU 55. THỜI HẠN NỘP HỌC PHÍ VÀ GIA HẠN HỌC PHÍ\n1. Thời hạn nộp học phí: Sinh viên phải hoàn thành toàn bộ học phí của học kỳ chính trong vòng 6 tuần"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c2",
+        "page": 27,
+        "score": 0.0323,
+        "hit": false,
+        "text_snippet": "ĐIỀU 56. CHẾ TÀI XỬ LÝ VI PHẠM THỜI HẠN NỘP HỌC PHÍ\nSinh viên không nộp học phí đúng hạn và không có đơn xin gia hạn được chấp thuận sẽ bị xử lý kỷ lu"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p25_c3",
+        "page": 25,
+        "score": 0.0312,
+        "hit": false,
+        "text_snippet": "ĐIỀU 51. THỦ TỤC VÀ HỒ SƠ XIN MIỄN GIẢM HỌC PHÍ\n1. Sinh viên thuộc đối tượng miễn, giảm học phí chỉ cần nộp 01 bộ hồ sơ duy nhất cho cả khóa học vào đ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p27_c0",
+        "page": 27,
+        "score": 0.031,
+        "hit": false,
+        "text_snippet": "ĐIỀU 54. ĐỊNH MỨC THU VÀ CÁCH TÍNH HỌC PHÍ TÍN CHỈ\n1. Học phí được xác định theo số lượng tín chỉ của các học phần mà sinh viên đăng ký trong học kỳ n"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p23_c0",
+        "page": 23,
+        "score": 0.031,
+        "hit": false,
+        "text_snippet": "ĐIỀU 45. NGUYÊN TẮC VÀ ĐỐI TƯỢNG XÉT HỌC BỔNG KKHT\n1. Quỹ học bổng khuyến khích học tập được trích tối thiểu 8% từ nguồn thu học phí của trường để cấp"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p27_c1 | so_tay_sinh_vien_2024 | trang 27]\nĐIỀU 55. THỜI HẠN NỘP HỌC PHÍ VÀ GIA HẠN HỌC PHÍ\n1. Thời hạn nộp học phí: Sinh viên phải hoàn thành toàn bộ học phí của học kỳ chính trong vòng 6 tuần đầu tiên của học kỳ (tương ứng 42 ngày kể từ ngày bắt đầu học tập). Đối với học kỳ hè, thời hạn nộp học phí là trong vòng 2 tuần đầu tiên.\n2. Thủ tục xin gia hạn học phí:\nSinh viên có hoàn cảnh kinh tế gia đình đặc biệt khó khăn đột xuất được phép làm đơn xin gia hạn nộp học phí. Đơn phải có xác nhận của Cố vấn học tập và Ban Giám hiệu phê duyệt. Thời gian gia hạn tối đa không quá 4 tuần tiếp theo tính từ ngày hết hạn nộp học phí chính thức.\n\n[B_so-tay-sinh-vien-2024_p27_c2 | so_tay_sinh_vien_2024 | trang 27]\nĐIỀU 56. CHẾ TÀI XỬ LÝ VI PHẠM THỜI HẠN NỘP HỌC PHÍ\nSinh viên không nộp học phí đúng hạn và không có đơn xin gia hạn được chấp thuận sẽ bị xử lý kỷ luật theo các bước sau:\n1. Quá hạn 01 tuần: Hệ thống tự động khóa tài khoản portal sinh viên, không xem được lịch thi và điểm thi;\n2. Quá hạn 02 tuần: Phòng Đào tạo xóa tên khỏi danh sách thi kết thúc học phần của tất cả các học phần đã đăng ký trong học kỳ đó (nhận điểm 0 cho kỳ thi);\n3. Hết học kỳ vẫn không nộp học phí: Sinh viên bị buộc tạm ngừng học tập ở học kỳ tiếp theo và không được đăng ký học phần mới cho đến khi hoàn thành toàn bộ khoản nợ học phí kèm lãi suất chậm nộp theo quy định của Ngân hàng Nhà nước.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p27_c1",
+      "B_so-tay-sinh-vien-2024_p27_c2"
+    ],
+    "context_chars": 1403,
+    "elapsed_ms": 29.69,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Sinh viên nội trú ký túc xá phải có mặt tại phòng ở trước mấy giờ đêm theo quy định giờ giới nghiêm?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 30,
+        "evidence": "Giờ đóng cửa KTX (giờ giới nghiêm): 23h00 hàng ngày. Tất cả sinh viên nội trú phải có mặt tại phòng ở trước 23h00."
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p30_c0",
+        "page": 30,
+        "score": 0.0325,
+        "hit": true,
+        "text_snippet": "ĐIỀU 61. QUY ĐỊNH VỀ THỜI GIAN BIỂU VÀ RA VÀO KTX\n1. Giờ mở cửa KTX: 05h00 hàng ngày.\n2. Giờ đóng cửa KTX (giờ giới nghiêm): 23h00 hàng ngày. Tất cả s"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p30_c1",
+        "page": 30,
+        "score": 0.0323,
+        "hit": false,
+        "text_snippet": "ĐIỀU 62. NỘI QUY TIẾP KHÁCH VÀ LƯU TRÚ CỦA NGƯỜI NGOÀI\n1. Sinh viên nội trú được tiếp người thân, bạn bè tại Phòng tiếp khách chung của KTX từ 07h00 đ"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p29_c2",
+        "page": 29,
+        "score": 0.0297,
+        "hit": false,
+        "text_snippet": "ĐIỀU 60. THỦ TỤC TRẢ PHÒNG VÀ THANH LÝ HỢP ĐỒNG\n1. Sinh viên có nhu cầu chấm dứt hợp đồng trước hạn phải nộp đơn báo trước ít nhất 15 ngày làm việc ch"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p11_c2",
+        "page": 11,
+        "score": 0.0296,
+        "hit": false,
+        "text_snippet": "ĐIỀU 22. TRÁCH NHIỆM CỦA THÍ SINH TRONG PHÒNG THI\n1. Thí sinh phải có mặt tại cửa phòng thi trước giờ bắt đầu làm bài ít nhất 15 phút. Khi vào phòng t"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p32_c2",
+        "page": 32,
+        "score": 0.0296,
+        "hit": false,
+        "text_snippet": "ĐIỀU 66. THÔNG BÁO VỀ KHOA VÀ GHI NHẬN HỒ SƠ RÈN LUYỆN\n1. Mọi quyết định kỷ luật từ mức Khiển trách trở lên tại Ký túc xá đều được gửi bằng văn bản về"
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p30_c0 | so_tay_sinh_vien_2024 | trang 30]\nĐIỀU 61. QUY ĐỊNH VỀ THỜI GIAN BIỂU VÀ RA VÀO KTX\n1. Giờ mở cửa KTX: 05h00 hàng ngày.\n2. Giờ đóng cửa KTX (giờ giới nghiêm): 23h00 hàng ngày. Tất cả sinh viên nội trú phải có mặt tại phòng ở trước 23h00.\n3. Trường hợp sinh viên có lý do đặc biệt (làm thêm ca đêm, nghiên cứu tại phòng thí nghiệm, tàu xe về muộn) cần về sau 23h00 hoặc ra ngoài trước 05h00 phải có đơn xin phép trước 21h00 hoặc xuất trình thẻ sinh viên kèm lý do chính đáng để cán bộ bảo vệ trực ghi sổ theo dõi. Sinh viên về muộn quá 3 lần/tháng không có lý do chính đáng sẽ bị lập biên bản cảnh cáo.\n4. Sinh viên phải quẹt thẻ nội trú tại cổng kiểm soát an ninh tự động khi ra vào ký túc xá. Tuyệt đối không cho người lạ mượn thẻ để vào KTX.\n\n[B_so-tay-sinh-vien-2024_p11_c2 | so_tay_sinh_vien_2024 | trang 11]\nĐIỀU 22. TRÁCH NHIỆM CỦA THÍ SINH TRONG PHÒNG THI\n1. Thí sinh phải có mặt tại cửa phòng thi trước giờ bắt đầu làm bài ít nhất 15 phút. Khi vào phòng thi, thí sinh bắt buộc phải xuất trình Thẻ sinh viên có ảnh hoặc Căn cước công dân gắn chip hợp lệ cho cán bộ coi thi. 2. Thí sinh đến muộn quá 15 phút sau khi phát đề thi (đối với bài thi tự luận) hoặc sau khi bắt đầu ca thi (đối với bài thi trắc nghiệm trên máy tính) sẽ không được phép dự thi và bị tính điểm 0 (không) cho buổi thi đó. 3. Thí sinh chỉ được mang vào phòng thi: bút viết, bút chì, compa, thước kẻ, máy tính cầm tay không có chức năng soạn thảo văn bản và không có thẻ nhớ.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p30_c0",
+      "B_so-tay-sinh-vien-2024_p11_c2"
+    ],
+    "context_chars": 1486,
+    "elapsed_ms": 29.18,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Hành vi nấu ăn trong phòng ở Ký túc xá bằng bếp gas hoặc bếp từ sẽ bị xử lý kỷ luật ở mức nào?",
+    "strategy": "hybrid_rrf",
+    "top_k": 5,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "so-tay-sinh-vien-2024",
+        "page": 32,
+        "evidence": "Cảnh cáo cấp Ký túc xá: Áp dụng đối với các vi phạm: Đã bị khiển trách mà tái phạm; nấu ăn trong phòng ở lần đầu; tự ý câu móc điện, nước"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_so-tay-sinh-vien-2024_p31_c0",
+        "page": 31,
+        "score": 0.0328,
+        "hit": false,
+        "text_snippet": "ĐIỀU 63. AN TOÀN PHÒNG CHÁY, CHỮA CHÁY VÀ VỆ SINH MÔI TRƯỜNG\n1. Nghiêm cấm tuyệt đối sinh viên nấu ăn trong phòng ở KTX bằng bếp gas, bếp từ, bếp hồng"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p32_c2",
+        "page": 32,
+        "score": 0.0315,
+        "hit": false,
+        "text_snippet": "ĐIỀU 66. THÔNG BÁO VỀ KHOA VÀ GHI NHẬN HỒ SƠ RÈN LUYỆN\n1. Mọi quyết định kỷ luật từ mức Khiển trách trở lên tại Ký túc xá đều được gửi bằng văn bản về"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p32_c0",
+        "page": 32,
+        "score": 0.031,
+        "hit": true,
+        "text_snippet": "ĐIỀU 65. CÁC HÌNH THỨC KỶ LUẬT VI PHẠM NỘI QUY KTX\nSinh viên nội trú vi phạm Quy chế và Nội quy KTX tùy theo tính chất, mức độ vi phạm sẽ bị xử lý the"
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p15_c0",
+        "page": 15,
+        "score": 0.0306,
+        "hit": false,
+        "text_snippet": "ĐIỀU 29. HÌNH THỨC KỶ LUẬT KHIỂN TRÁCH PHÒNG THI\n1. Hình thức kỷ luật Khiển trách áp dụng đối với thí sinh phạm lỗi một lần trong các hành vi sau:\na) "
+      },
+      {
+        "id": "B_so-tay-sinh-vien-2024_p20_c2",
+        "page": 20,
+        "score": 0.0301,
+        "hit": false,
+        "text_snippet": "ĐIỀU 40. TRÌNH TỰ VÀ HỒ SƠ XỬ LÝ KỶ LUẬT\n1. Khi phát hiện sinh viên vi phạm, đơn vị phát hiện lập biên bản vi phạm chuyển về Phòng Công tác Sinh viên "
+      }
+    ],
+    "context": "[B_so-tay-sinh-vien-2024_p31_c0 | so_tay_sinh_vien_2024 | trang 31]\nĐIỀU 63. AN TOÀN PHÒNG CHÁY, CHỮA CHÁY VÀ VỆ SINH MÔI TRƯỜNG\n1. Nghiêm cấm tuyệt đối sinh viên nấu ăn trong phòng ở KTX bằng bếp gas, bếp từ, bếp hồng ngoại, nồi cơm điện hoặc các thiết bị sinh nhiệt khác (trừ khu nhà KTX dịch vụ có thiết kế gian bếp chung theo quy chuẩn PCCC).\n2. Nghiêm cấm tàng trữ, sử dụng các chất dễ cháy nổ, bình gas du lịch, xăng dầu, pháo nổ, vũ khí, hung khí nguy hiểm trong khuôn viên ký túc xá.\n3. Không thắp hương, đốt vàng mã, nến hoặc hút thuốc lá trong phòng ở, hành lang và cầu thang KTX. Hệ thống báo cháy tự động sẽ kích hoạt chuông báo động toàn nhà khi phát hiện khói.\n4. Sinh viên có nghĩa vụ giữ gìn vệ sinh chung, đổ rác đúng nơi quy định trước 08h00 hàng ngày. Ban Quản lý tổ chức kiểm tra vệ sinh phòng ở định kỳ vào thứ Bảy hàng tuần.\n\n[B_so-tay-sinh-vien-2024_p20_c2 | so_tay_sinh_vien_2024 | trang 20]\nĐIỀU 40. TRÌNH TỰ VÀ HỒ SƠ XỬ LÝ KỶ LUẬT\n1. Khi phát hiện sinh viên vi phạm, đơn vị phát hiện lập biên bản vi phạm chuyển về Phòng Công tác Sinh viên trong vòng 2 ngày làm việc.\n2. Sinh viên vi phạm phải làm bản tự kiểm điểm. Ban cán sự lớp họp lấy ý kiến và đề xuất hình thức kỷ luật.\n3. Hội đồng Khen thưởng và Kỷ luật nhà trường họp xét, bỏ phiếu kín và trình Hiệu trưởng ra quyết định kỷ luật bằng văn bản. Quyết định được gửi cho sinh viên, gia đình và lưu hồ sơ quản lý.",
+    "context_ids": [
+      "B_so-tay-sinh-vien-2024_p31_c0",
+      "B_so-tay-sinh-vien-2024_p20_c2"
+    ],
+    "context_chars": 1392,
+    "elapsed_ms": 33.39,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "context_hit": false
+  }
+]

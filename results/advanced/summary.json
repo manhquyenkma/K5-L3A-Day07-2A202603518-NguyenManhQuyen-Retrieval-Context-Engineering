@@ -1,0 +1,43 @@
+{
+  "document": "BCTN_Vinamilk_2023 (188 trang)",
+  "total_test_cases": 30,
+  "total_passed": 30,
+  "pass_rate_pct": 100.0,
+  "meets_advanced_threshold_90pct": true,
+  "total_elapsed_sec": 36.1,
+  "avg_latency_ms": 1203.5,
+  "total_cost_usd": 0.0,
+  "system_errors": 0,
+  "results_by_group": {
+    "Bảng": {
+      "passed": 6,
+      "total": 6,
+      "pass_rate_pct": 100.0
+    },
+    "Ảnh, sơ đồ": {
+      "passed": 5,
+      "total": 5,
+      "pass_rate_pct": 100.0
+    },
+    "Biểu đồ": {
+      "passed": 5,
+      "total": 5,
+      "pass_rate_pct": 100.0
+    },
+    "Multi-hop": {
+      "passed": 4,
+      "total": 4,
+      "pass_rate_pct": 100.0
+    },
+    "Text": {
+      "passed": 4,
+      "total": 4,
+      "pass_rate_pct": 100.0
+    },
+    "Thiếu bằng chứng": {
+      "passed": 6,
+      "total": 6,
+      "pass_rate_pct": 100.0
+    }
+  }
+}

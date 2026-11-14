@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "n": 15,
+    "hit1": 13,
+    "hit1_pct": 86.7,
+    "hit3": 14,
+    "hit3_pct": 93.3,
+    "hit5": 14,
+    "hit5_pct": 93.3,
+    "context_hit": 13,
+    "context_hit_pct": 86.7,
+    "avg_context_chars": 1242,
+    "median_ms": 0.4
+  },
+  "test": {
+    "n": 5,
+    "hit1": 3,
+    "hit1_pct": 60.0,
+    "hit3": 3,
+    "hit3_pct": 60.0,
+    "hit5": 5,
+    "hit5_pct": 100.0,
+    "context_hit": 3,
+    "context_hit_pct": 60.0,
+    "avg_context_chars": 1146,
+    "median_ms": 0.3
+  },
+  "all": {
+    "n": 20,
+    "hit1": 16,
+    "hit1_pct": 80.0,
+    "hit3": 17,
+    "hit3_pct": 85.0,
+    "hit5": 19,
+    "hit5_pct": 95.0,
+    "context_hit": 16,
+    "context_hit_pct": 80.0,
+    "avg_context_chars": 1218,
+    "median_ms": 0.4
+  }
+}

@@ -1,0 +1,859 @@
+[
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "một tín chỉ lý thuyết quy định bao nhiêu tiết học",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p13_c0"
+        ],
+        "context_chars": 668
+      },
+      {
+        "event": "search",
+        "query": "tín chỉ lý thuyết quy định bao nhiêu tiết",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p13_c0"
+        ],
+        "context_chars": 668
+      },
+      {
+        "event": "search",
+        "query": "tín chỉ lý thuyết bao nhiêu tiết",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p13_c0"
+        ],
+        "context_chars": 668
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 3720.6521000002795,
+    "strategy": "baseline_dense",
+    "search_count": 3,
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "sinh viên học lực bình thường đăng ký tối đa bao nhiêu tín chỉ trong học kỳ chính",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p27_c0"
+        ],
+        "context_chars": 662
+      },
+      {
+        "event": "search",
+        "query": "đăng ký tối đa bao nhiêu tín chỉ trong học kỳ chính sinh viên học lực bình thường",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p27_c0"
+        ],
+        "context_chars": 662
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 2648.0211000002782,
+    "strategy": "baseline_dense",
+    "search_count": 2,
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "sinh viên xếp loại học lực yếu cảnh báo học tập tối đa bao nhiêu tín chỉ trong kỳ chính",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p4_c2"
+        ],
+        "context_chars": 771
+      },
+      {
+        "event": "search",
+        "query": "đăng ký tối đa bao nhiêu tín chỉ học lực yếu cảnh báo học tập",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p4_c2"
+        ],
+        "context_chars": 771
+      },
+      {
+        "event": "search",
+        "query": "đăng ký tối đa bao nhiêu tín chỉ học kỳ chính cảnh báo học tập yếu",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p4_c2"
+        ],
+        "context_chars": 771
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 3475.691900000129,
+    "strategy": "baseline_dense",
+    "search_count": 3,
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "answered",
+    "answer": "Tài liệu không cung cấp cụ thể thời hạn (tính bằng số tuần hoặc số ngày) nộp đơn rút bớt học phần trong học kỳ chính kể từ ngày bắt đầu học tập mà chỉ nêu sinh viên được hoàn trả 50% học phí nếu nộp đơn trong tuần thứ nhất [B_so-tay-sinh-vien-2024_p3_c1].",
+    "citations": [
+      "B_so-tay-sinh-vien-2024_p3_c1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "rút bớt học phần trong học kỳ chính",
+        "filter": {
+          "section": "dao_tao"
+        },
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p3_c1"
+        ],
+        "context_chars": 498
+      },
+      {
+        "event": "answer",
+        "valid_citations": 1
+      }
+    ],
+    "elapsed_ms": 2548.155399999814,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "answered",
+    "answer": "Sinh viên được phép đăng ký học cải thiện điểm đối với các học phần đã đạt điểm D hoặc D+ nhằm nâng cao điểm trung bình tích lũy [B_so-tay-sinh-vien-2024_p3_c2].",
+    "citations": [
+      "B_so-tay-sinh-vien-2024_p3_c2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "học phần cải thiện nâng cao điểm tích lũy",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p3_c2"
+        ],
+        "context_chars": 765
+      },
+      {
+        "event": "answer",
+        "valid_citations": 1
+      }
+    ],
+    "elapsed_ms": 2596.6122999998333,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "cảnh báo kết quả học tập sinh viên năm thứ ba điểm trung bình tích lũy",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p19_c0"
+        ],
+        "context_chars": 795
+      },
+      {
+        "event": "search",
+        "query": "cảnh báo kết quả học tập điểm trung bình tích lũy",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p19_c0"
+        ],
+        "context_chars": 795
+      },
+      {
+        "event": "search",
+        "query": "cảnh báo kết quả học tập điểm trung bình tích lũy",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p19_c0"
+        ],
+        "context_chars": 795
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 11980.320399999982,
+    "strategy": "baseline_dense",
+    "search_count": 3,
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "answered",
+    "answer": "Thời gian nghỉ học tạm thời vì nhu cầu cá nhân tối đa không được vượt quá 4 học kỳ chính trong toàn khóa học [B_so-tay-sinh-vien-2024_p5_c1].",
+    "citations": [
+      "B_so-tay-sinh-vien-2024_p5_c1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "nghỉ học tạm thời vì nhu cầu cá nhân tối đa không được vượt quá bao nhiêu học kỳ chính",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p5_c1"
+        ],
+        "context_chars": 343
+      },
+      {
+        "event": "answer",
+        "valid_citations": 1
+      }
+    ],
+    "elapsed_ms": 2291.8844999999237,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "đăng ký học cùng lúc hai chương trình điểm trung bình tích lũy tối thiểu",
+        "filter": {
+          "section": "dao_tao"
+        },
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p6_c2"
+        ],
+        "context_chars": 345
+      },
+      {
+        "event": "search",
+        "query": "học cùng lúc hai chương trình điểm trung bình tích lũy",
+        "filter": {
+          "section": "dao_tao"
+        },
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p6_c2"
+        ],
+        "context_chars": 345
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 2727.080300000125,
+    "strategy": "baseline_dense",
+    "search_count": 2,
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "điểm trung bình tích lũy tối thiểu tỷ lệ tín chỉ đồ án tốt nghiệp",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p10_c2"
+        ],
+        "context_chars": 624
+      },
+      {
+        "event": "search",
+        "query": "điểm trung bình tích lũy tối thiểu tỷ lệ tín chỉ đồ án tốt nghiệp",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p10_c2"
+        ],
+        "context_chars": 624
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 2644.127699999899,
+    "strategy": "baseline_dense",
+    "search_count": 2,
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "answered",
+    "answer": "Thí sinh đến muộn quá 15 phút sau khi phát đề thi (đối với bài thi tự luận) hoặc sau khi bắt đầu ca thi (đối với bài thi trắc nghiệm trên máy tính) sẽ không được phép dự thi và bị tính điểm 0 [B_so-tay-sinh-vien-2024_p11_c2].",
+    "citations": [
+      "B_so-tay-sinh-vien-2024_p11_c2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "thí sinh đến muộn bao nhiêu phút sau khi phát đề thi",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p11_c2"
+        ],
+        "context_chars": 707
+      },
+      {
+        "event": "answer",
+        "valid_citations": 1
+      }
+    ],
+    "elapsed_ms": 1688.3799000002,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "answered",
+    "answer": "Đơn xin hoãn thi nộp quá thời hạn 3 ngày làm việc kể từ ngày tổ chức ca thi sẽ không được xem xét, sinh viên bị tính điểm 0 cho bài thi vắng mặt không lý do [B_so-tay-sinh-vien-2024_p12_c1].",
+    "citations": [
+      "B_so-tay-sinh-vien-2024_p12_c1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "đơn xin hoãn thi không được xem xét điểm 0",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p12_c1",
+          "B_so-tay-sinh-vien-2024_p14_c1"
+        ],
+        "context_chars": 651
+      },
+      {
+        "event": "answer",
+        "valid_citations": 1
+      }
+    ],
+    "elapsed_ms": 26948.00299999997,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "phúc khảo bài thi kết thúc học phần bao nhiêu ngày",
+        "filter": {
+          "section": "khao_thi"
+        },
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p14_c3"
+        ],
+        "context_chars": 382
+      },
+      {
+        "event": "search",
+        "query": "thời hạn nộp đơn đề nghị phúc khảo",
+        "filter": {
+          "section": "khao_thi"
+        },
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p14_c3"
+        ],
+        "context_chars": 382
+      },
+      {
+        "event": "search",
+        "query": "thời hạn nộp đơn đề nghị phúc khảo",
+        "filter": {
+          "section": "khao_thi"
+        },
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p14_c3"
+        ],
+        "context_chars": 382
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 3529.952500000036,
+    "strategy": "baseline_dense",
+    "search_count": 3,
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "khiển trách trong kỳ thi trừ bao nhiêu phần trăm điểm",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p14_c2"
+        ],
+        "context_chars": 651
+      },
+      {
+        "event": "search",
+        "query": "kỷ luật khiển trách trong kỳ thi trừ bao nhiêu phần trăm",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p14_c2"
+        ],
+        "context_chars": 651
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 2272.490800000014,
+    "strategy": "baseline_dense",
+    "search_count": 2,
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "answered",
+    "answer": "Điểm rèn luyện của sinh viên được đánh giá theo thang điểm 100 và chia thành 5 tiêu chí thành phần [B_so-tay-sinh-vien-2024_p17_c1].",
+    "citations": [
+      "B_so-tay-sinh-vien-2024_p17_c1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "điểm rèn luyện của sinh viên được đánh giá theo thang điểm bao nhiêu và chia thành mấy tiêu chí",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p17_c1"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "answer",
+        "valid_citations": 1
+      }
+    ],
+    "elapsed_ms": 2055.531399999836,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "xếp loại rèn luyện Yếu Kém tạm ngừng học tập",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p23_c1",
+          "B_so-tay-sinh-vien-2024_p3_c1"
+        ],
+        "context_chars": 623
+      },
+      {
+        "event": "search",
+        "query": "rèn luyện Yếu Kém tạm ngừng học tập",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p23_c1",
+          "B_so-tay-sinh-vien-2024_p3_c1"
+        ],
+        "context_chars": 623
+      },
+      {
+        "event": "search",
+        "query": "tạm ngừng học tập xếp loại rèn luyện Yếu Kém",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p23_c1",
+          "B_so-tay-sinh-vien-2024_p3_c1"
+        ],
+        "context_chars": 623
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 3437.5027000000955,
+    "strategy": "baseline_dense",
+    "search_count": 3,
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "học bổng khuyến khích học tập mức Xuất sắc điểm học tập điểm rèn luyện",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p18_c1"
+        ],
+        "context_chars": 790
+      },
+      {
+        "event": "search",
+        "query": "học bổng khuyến khích học tập mức Xuất sắc điểm học tập điểm rèn luyện",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p18_c1"
+        ],
+        "context_chars": 790
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 10775.358000000324,
+    "strategy": "baseline_dense",
+    "search_count": 2,
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "giảm học phí con cán bộ công chức bị tai nạn lao động bệnh nghề nghiệp",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p3_c1"
+        ],
+        "context_chars": 498
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 9860.224800000196,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "status": "answered",
+    "answer": "Thời hạn hoàn thành toàn bộ học phí của học kỳ chính là trong vòng 6 tuần đầu tiên của học kỳ [B_so-tay-sinh-vien-2024_p27_c1].",
+    "citations": [
+      "B_so-tay-sinh-vien-2024_p27_c1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "thời hạn hoàn thành toàn bộ học phí học kỳ chính bao nhiêu tuần",
+        "filter": {
+          "section": "hoc_bong_hoc_phi"
+        },
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p27_c1"
+        ],
+        "context_chars": 664
+      },
+      {
+        "event": "answer",
+        "valid_citations": 1
+      }
+    ],
+    "elapsed_ms": 1752.9782999999952,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "giờ giới nghiêm ký túc xá sinh viên nội trú mấy giờ đêm",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p30_c1"
+        ],
+        "context_chars": 790
+      },
+      {
+        "event": "search",
+        "query": "giờ giới nghiêm ký túc xá sinh viên nội trú",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p30_c1"
+        ],
+        "context_chars": 790
+      },
+      {
+        "event": "search",
+        "query": "giờ giới nghiêm ký túc xá",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p30_c1"
+        ],
+        "context_chars": 790
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 3504.997199999707,
+    "strategy": "baseline_dense",
+    "search_count": 3,
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "nấu ăn trong phòng ở Ký túc xá bếp gas bếp từ xử lý kỷ luật",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p29_c1"
+        ],
+        "context_chars": 281
+      },
+      {
+        "event": "search",
+        "query": "nấu ăn trong phòng ở Ký túc xá kỷ luật",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p29_c1"
+        ],
+        "context_chars": 281
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 2324.8985000000175,
+    "strategy": "baseline_dense",
+    "search_count": 2,
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "nuôi thú cưng trong phòng ký túc xá",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p29_c1"
+        ],
+        "context_chars": 281
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 1421.9868000000133,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q21",
+    "split": "dev",
+    "answerable": false
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "đăng ký tham gia chương trình trao đổi sinh viên quốc tế",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p25_c1",
+          "B_so-tay-sinh-vien-2024_p24_c2"
+        ],
+        "context_chars": 439
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 2768.0390999998963,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q22",
+    "split": "dev",
+    "answerable": false
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "đỗ xe sai quy định mức phạt sinh viên",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p20_c1"
+        ],
+        "context_chars": 714
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 27272.93039999995,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q23",
+    "split": "test",
+    "answerable": false
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "chứng chỉ ngoại ngữ điều kiện tốt nghiệp",
+        "filter": null,
+        "num_results": 3,
+        "context_ids": [
+          "B_so-tay-sinh-vien-2024_p7_c1"
+        ],
+        "context_chars": 338
+      },
+      {
+        "event": "abstain_intentional",
+        "answer": "Không đủ bằng chứng để trả lời."
+      }
+    ],
+    "elapsed_ms": 1974.418499999956,
+    "strategy": "baseline_dense",
+    "search_count": 1,
+    "query_id": "q24",
+    "split": "test",
+    "answerable": false
+  }
+]

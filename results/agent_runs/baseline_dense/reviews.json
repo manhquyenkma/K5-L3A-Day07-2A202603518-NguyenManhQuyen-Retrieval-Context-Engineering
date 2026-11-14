@@ -1,0 +1,160 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "audit_reason": "Trả lời chính xác đầy đủ, citation hỗ trợ"
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "audit_reason": "Trả lời chính xác đầy đủ, citation hỗ trợ"
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "audit_reason": "Trả lời chính xác đầy đủ, citation hỗ trợ"
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q09",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "audit_reason": "Trả lời chính xác đầy đủ, citation hỗ trợ"
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "audit_reason": "Trả lời chính xác đầy đủ, citation hỗ trợ"
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1,
+    "audit_reason": "Trả lời đúng một phần hoặc số liệu đúng"
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q16",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 1,
+    "audit_reason": "Trả lời đúng một phần hoặc số liệu đúng"
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [],
+    "answer_grade": 0,
+    "audit_reason": "Hệ thống từ chối (abstain) trên câu có đáp án"
+  },
+  {
+    "query_id": "q21",
+    "citation_support": [],
+    "abstention_correct": true,
+    "audit_reason": "Từ chối chính xác câu hỏi không có trong tài liệu"
+  },
+  {
+    "query_id": "q22",
+    "citation_support": [],
+    "abstention_correct": true,
+    "audit_reason": "Từ chối chính xác câu hỏi không có trong tài liệu"
+  },
+  {
+    "query_id": "q23",
+    "citation_support": [],
+    "abstention_correct": true,
+    "audit_reason": "Từ chối chính xác câu hỏi không có trong tài liệu"
+  },
+  {
+    "query_id": "q24",
+    "citation_support": [],
+    "abstention_correct": true,
+    "audit_reason": "Từ chối chính xác câu hỏi không có trong tài liệu"
+  }
+]
